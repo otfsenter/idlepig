@@ -1,0 +1,11 @@
+build/
+_build/
+*.pyc
+*.pyd
+.idea/
+source/tmp
+.vscode/
+source/.vscode/
+source/tmp.txt
+source/tmp1
+source/t.py
