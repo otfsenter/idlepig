@@ -20,7 +20,7 @@ platform = str(sys.platform)
 
 command_add = 'git add .'
 command_commit = 'git commit -m "%s" ' % comment
-command_push = 'git push -u origin master'
+command_push = 'git push -u origin main'
 
 os.system(command_add)
 os.system(command_commit)
