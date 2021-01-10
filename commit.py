@@ -39,7 +39,7 @@ os.system('cp -r -f %s .' % os_dirs_dict.get(platform).get('build_html_dir'))
 
 command_add = 'git add .'
 command_commit = 'git commit -m "%s" ' % comment
-command_push = 'git push -u origin master'
+command_push = 'git push -u origin main'
 
 os.system(command_add)
 os.system(command_commit)
