@@ -1,0 +1,323 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, IdlePig
+# This file is distributed under the same license as the 首页 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 首页 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-12 00:28+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../linux/docker/k8s_course.rst:4
+msgid "课程目录"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:7
+msgid "有道分享链接"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:9
+msgid "文档：深入剖析k8s"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:11
+msgid "链接："
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:13
+msgid "http://note.youdao.com/noteshare?id=c562c06a0cc20e09fd07faf1978d4f9d"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:16
+msgid "课前必读 (5讲)"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:18
+msgid "开篇词 | 打通“容器技术”的任督二脉免费"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:20
+msgid "01 | 预习篇 · 小鲸鱼大事记（一）：初出茅庐"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:22
+msgid "02 | 预习篇 · 小鲸鱼大事记（二）：崭露头角"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:24
+msgid "03 | 预习篇 · 小鲸鱼大事记（三）：群雄并起"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:26
+msgid "04 | 预习篇 · 小鲸鱼大事记（四）：尘埃落定"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:29
+msgid "容器技术概念入门篇 (5讲)"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:31
+msgid "05 | 白话容器基础（一）：从进程说开去"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:33
+msgid "06 | 白话容器基础（二）：隔离与限制"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:35
+msgid "07 | 白话容器基础（三）：深入理解容器镜像"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:37
+msgid "08 | 白话容器基础（四）：重新认识Docker容器"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:39
+msgid "09 | 从容器到容器云：谈谈Kubernetes的本质"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:42
+msgid "Kubernetes集群搭建与实践 (3讲)"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:44
+msgid "10 | Kubernetes一键部署利器：kubeadm"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:46
+msgid "11 | 从0到1：搭建一个完整的Kubernetes集群"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:48
+msgid "12 | 牛刀小试：我的第一个容器化应用"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:51
+msgid "容器编排与Kubernetes作业管理 (15讲)"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:53
+msgid "13 | 为什么我们需要Pod"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:55
+msgid "14 | 深入解析Pod对象（一）：基本概"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:57
+msgid "15 | 深入解析Pod对象（二）：使用进"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:59
+msgid "16 | 编排其实很简单：谈谈“控制器”模"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:61
+msgid "17 | 经典PaaS的记忆：作业副本与水平扩"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:63
+msgid "18 | 深入理解StatefulSet（一）：拓扑状"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:65
+msgid "19 | 深入理解StatefulSet（二）：存储状"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:67
+msgid "20 | 深入理解StatefulSet（三）：有状态应用实"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:69
+msgid "21 | 容器化守护进程的意义：DaemonSe"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:71
+msgid "22 | 撬动离线业务：Job与CronJo"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:73
+msgid "23 | 声明式API与Kubernetes编程范"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:75
+msgid "24 | 深入解析声明式API（一）：API对象的奥"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:77
+msgid "25 | 深入解析声明式API（二）：编写自定义控制"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:79
+msgid "26 | 基于角色的权限控制：RBA"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:81
+msgid "27 | 聪明的微创新：Operator工作原理解"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:84
+msgid "Kubernetes容器持久化存储 (4讲)"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:86
+msgid "28 | PV、PVC、StorageClass，这些到底在说啥"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:88
+msgid "29 | PV、PVC体系是不是多此一举？从本地持久化卷谈"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:90
+msgid "30 | 编写自己的存储插件：FlexVolume与CS"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:92
+msgid "31 | 容器存储实践：CSI插件编写指"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:95
+msgid "Kubernetes容器网络 (8讲)"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:97
+msgid "32 | 浅谈容器网络"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:99
+msgid "33 | 深入解析容器跨主机网络"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:101
+msgid "34 | Kubernetes网络模型与CNI网络插件"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:103
+msgid "35 | 解读Kubernetes三层网络方案"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:105
+msgid "36 | 为什么说Kubernetes只有soft multi-tenancy？"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:107
+msgid "37 | 找到容器不容易：Service、DNS与服务发现"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:109
+msgid "38 | 从外界连通Service与Service调试“三板斧”"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:111
+msgid "39 | 谈谈Service与Ingress"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:114
+msgid "Kubernetes作业调度与资源管理 (5讲)"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:116
+msgid "40 | Kubernetes的资源模型与资源管理"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:118
+msgid "41 | 十字路口上的Kubernetes默认调度器"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:120
+msgid "42 | Kubernetes默认调度器调度策略解析"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:122
+msgid "43 | Kubernetes默认调度器的优先级与抢占机制"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:124
+msgid "44 | Kubernetes GPU管理与Device Plugin机制"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:127
+msgid "Kubernetes容器运行时 (3讲)"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:129
+msgid "45 | 幕后英雄：SIG-Node与CRI"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:131
+msgid "46 | 解读 CRI 与 容器运行时"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:133
+msgid "47 | 绝不仅仅是安全：Kata Containers 与 gVisor"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:136
+msgid "Kubernetes容器监控与日志 (3讲)"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:138
+msgid "48 | Prometheus、Metrics Server与Kubernetes监控体系"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:140
+msgid "49 | Custom Metrics: 让Auto Scaling不再“食之无味”"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:142
+msgid "50 | 让日志无处可逃：容器日志收集与管理"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:145
+msgid "再谈开源与社区 (1讲)"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:147
+msgid "51 | 谈谈Kubernetes开源社区和未来走向"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:150
+msgid "答疑文章 (1讲)"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:152
+msgid "52 | 答疑：在问题中解决问题，在思考中产生思考"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:155
+msgid "特别放送 (2讲)"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:157
+msgid "特别放送 | 2019 年，容器技术生态会发生些什么？"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:159
+msgid "特别放送 | 基于 Kubernetes 的云原生应用管理，到底应该怎么做？"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:162
+msgid "结束语 (1讲)"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:164
+msgid "结束语 | Kubernetes：赢开发者赢天下"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:167
+msgid "结课测试 (1讲)"
+msgstr ""
+
+#: ../linux/docker/k8s_course.rst:169
+msgid "结课测试｜这些Kubernetes的相关知识，你都掌握了吗？"
+msgstr ""
+

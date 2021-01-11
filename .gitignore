@@ -9,3 +9,8 @@ source/.vscode/
 source/tmp.txt
 source/tmp1
 source/t.py
+source/t.html
+**/*.mo
+**/*.pot
+__pycache__
+source/locale/.doctrees

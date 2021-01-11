@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, IdlePig
+# This file is distributed under the same license as the 首页 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 首页 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-12 00:28+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../linux/zabbix/zabbix.rst:5
+msgid "main"
+msgstr ""
+
+#: ../linux/zabbix/zabbix.rst:9
+msgid "install zabbix agent address"
+msgstr ""
+
+#: ../linux/zabbix/zabbix.rst:11
+msgid "https://github.com/dominicpratt/install-zabbix-agent"
+msgstr ""
+
+#: ../linux/zabbix/zabbix.rst:13
+msgid "yum install -y postgresql-server postgresql-contrib"
+msgstr ""
+
+#: ../linux/zabbix/zabbix.rst:15
+msgid "postgresql-setup initdb"
+msgstr ""
+
+#: ../linux/zabbix/zabbix.rst:18
+msgid "systemctl start postgresql"
+msgstr ""
+
+#: ../linux/zabbix/zabbix.rst:21
+msgid "systemctl enable postgresql"
+msgstr ""
+
+#: ../linux/zabbix/zabbix.rst:23
+msgid "./configure --enable-server --with-postgresql --with-net-snmp"
+msgstr ""
+
+#: ../linux/zabbix/zabbix.rst:25
+msgid ""
+"./configure --enable-server --with-postgresql=/usr/bin/pg_conf --with-"
+"net-snmp"
+msgstr ""
+

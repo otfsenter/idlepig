@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, IdlePig
+# This file is distributed under the same license as the 首页 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 首页 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-12 00:28+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../linux/docker/command_line_for_basic.rst:4
+msgid "Docker常用的一些命令"
+msgstr ""
+
+#: ../linux/docker/command_line_for_basic.rst:6
+msgid ":ref:`wechat`"
+msgstr ""
+
+#: ../linux/docker/command_line_for_basic.rst:9
+msgid "新建一个container, 映射路径、端口"
+msgstr ""
+
+#: ../linux/docker/command_line_for_basic.rst:15
+msgid "**冒号前的表示本地，冒号后表示 container 里的路径、配置**"
+msgstr ""
+
+#: ../linux/docker/command_line_for_basic.rst:17
+msgid "-i: interactive"
+msgstr ""
+
+#: ../linux/docker/command_line_for_basic.rst:19
+msgid "-t: tty"
+msgstr ""
+
+#: ../linux/docker/command_line_for_basic.rst:21
+msgid "-d: daemon"
+msgstr ""
+
+#: ../linux/docker/command_line_for_basic.rst:23
+msgid "--name: 为容器起一个名字"
+msgstr ""
+
+#: ../linux/docker/command_line_for_basic.rst:25
+msgid "-v: volume"
+msgstr ""
+
+#: ../linux/docker/command_line_for_basic.rst:27
+msgid "-p: port"
+msgstr ""
+
+#: ../linux/docker/command_line_for_basic.rst:29
+msgid "最后的 nginx ，会从 docker 的官方网站拉去最新的 nginx 镜像"
+msgstr ""
+
+#: ../linux/docker/command_line_for_basic.rst:33
+msgid "查看 container 的日志"
+msgstr ""
+
+#: ../linux/docker/command_line_for_basic.rst:39
+msgid "-f: follow"
+msgstr ""
+
+#: ../linux/docker/command_line_for_basic.rst:41
+msgid "--tail: tail"
+msgstr ""
+
+#: ../linux/docker/command_line_for_basic.rst:43
+msgid "50: 查看最后50行日志"
+msgstr ""
+
+#: ../linux/docker/command_line_for_basic.rst:45
+msgid "blog_nginx: 是 container 的名字"
+msgstr ""
+
+#: ../linux/docker/command_line_for_basic.rst:48
+msgid "进入 container"
+msgstr ""
+
+#: ../linux/docker/command_line_for_basic.rst:56
+msgid "从 container 里面复制文件出来"
+msgstr ""
+

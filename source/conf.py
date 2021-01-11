@@ -13,7 +13,6 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-import sphinx_bootstrap_theme
 
 
 # -- Project information -----------------------------------------------------
@@ -31,7 +30,7 @@ author = 'IdlePig'
 # ones.
 extensions = [
         'sphinx.ext.autodoc',
-        'sphinx_sitemap',
+        'm2r2',
  #        'nbsphinx',
 ]
 
@@ -53,19 +52,19 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 # html_theme = 'alabaster'
-# html_theme = 'sphinx_rtd_theme'
-html_theme = 'bootstrap'
-html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
-html_show_sourcelink = False
+html_theme = 'sphinx_rtd_theme'
+# html_theme = 'bootstrap'
+# html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
+# html_show_sourcelink = False
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-# language = 'zh_CN'
+language = 'en'
 
-# locale_dirs = ['locale/']
-# gettext_compact = False
+locale_dirs = ['locale/']
+gettext_compact = False
 
-html_baseurl = 'http://www.idlepig.cn/'
+# html_baseurl = 'http://www.idlepig.cn/'
