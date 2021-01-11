@@ -16,6 +16,8 @@ locale
 
 https://www.sphinx-doc.org/en/master/usage/advanced/intl.html
 
+https://docs.readthedocs.io/en/stable/localization.html
+
 
 build different language
 ============================
@@ -51,7 +53,6 @@ branch：main
 branch：main
 
 然后两个一起build
-
 
 分别看一下两个文档是否正常
 
