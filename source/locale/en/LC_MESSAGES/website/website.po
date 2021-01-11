@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../website/website.rst:5
 msgid "网站相关的信息"
-msgstr ""
+msgstr "the information about website"
 
 #: ../website/website.rst:8
 msgid "idlepig.cn的备案号"
-msgstr ""
+msgstr "the record number of idlepig.cn"
 
 #: ../website/website.rst:10
 msgid "**footer**"

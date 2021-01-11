@@ -19,15 +19,15 @@ msgstr ""
 
 #: ../kenan.rst:4
 msgid "柯南主线剧情"
-msgstr ""
+msgstr "the main plot of play"
 
 #: ../kenan.rst:1
 msgid "集数"
-msgstr ""
+msgstr "episode"
 
 #: ../kenan.rst:1
 msgid "链接"
-msgstr ""
+msgstr "link"
 
 #: ../kenan.rst:1
 msgid "1"
