@@ -18,9 +18,9 @@
 # -- Project information -----------------------------------------------------
 
 # project = 'IdlePig · 公众号：Python脚本'
-project = '首页'
+project = 'IdlePig'
 copyright = '2021, IdlePig'
-author = 'IdlePig'
+author = 'idlepig'
 
 
 # -- General configuration ---------------------------------------------------
@@ -62,7 +62,7 @@ html_theme = 'sphinx_rtd_theme'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-language = 'en'
+language = 'zh_CN'
 
 locale_dirs = ['locale/']
 gettext_compact = False
