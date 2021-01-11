@@ -23,35 +23,35 @@ msgstr ""
 
 #: ../wechat/re_split.rst:9
 msgid "目的"
-msgstr ""
+msgstr "Purpose"
 
 #: ../wechat/re_split.rst:11
 msgid "对 line 字符串进行分割，取出每个单词"
-msgstr ""
+msgstr "get each word by split by line string"
 
 #: ../wechat/re_split.rst:13
 msgid "预计的结果如下:"
-msgstr ""
+msgstr "the future result is: "
 
 #: ../wechat/re_split.rst:22
 msgid "参数说明"
-msgstr ""
+msgstr "parameter"
 
 #: ../wechat/re_split.rst:24
 msgid "`re.split()` 函数一般需要接收两个参数，"
-msgstr ""
+msgstr "`re.split()`  functions usually need two parameters, "
 
 #: ../wechat/re_split.rst:26
 msgid "第一个参数：正则表达式"
-msgstr ""
+msgstr "the first parameter: regualer expression"
 
 #: ../wechat/re_split.rst:28
 msgid "第二个参数：字符串"
-msgstr ""
+msgstr "the second parameter: string"
 
 #: ../wechat/re_split.rst:31
 msgid "方括号"
-msgstr ""
+msgstr "square brackets"
 
 #: ../wechat/re_split.rst:43 ../wechat/re_split.rst:66
 #: ../wechat/re_split.rst:88 ../wechat/re_split.rst:110
@@ -60,61 +60,61 @@ msgstr ""
 
 #: ../wechat/re_split.rst:50
 msgid "第一个参数：`r'[\\\\s!]'`"
-msgstr ""
+msgstr "the first parameter: `r'[\\\\s!]'`"
 
 #: ../wechat/re_split.rst:52
 msgid "在正则表达式中，会匹配方括号中任意一个字符，缺点是不能 以多个字符 为一个单元 作为分隔符，并且是或的关系"
-msgstr ""
+msgstr "in regular expressions, [] expression only match the one of characters in [] and can not get one of string."
 
 #: ../wechat/re_split.rst:54
 msgid "结果中也有一个空字符串"
-msgstr ""
+msgstr "there is a empty string in result."
 
 #: ../wechat/re_split.rst:58
 msgid "圆括号"
-msgstr ""
+msgstr "parentheses"
 
 #: ../wechat/re_split.rst:72
 msgid "圆括号可以 用多个字符作为一个分隔符，并且匹配任意一个，"
-msgstr ""
+msgstr "parentheses will get one of multiple strings in ()"
 
 #: ../wechat/re_split.rst:74
 msgid "在这里面，就是匹配 !\\s 或 \\\\s 其中任意一个"
-msgstr ""
+msgstr "in here, it will match one of !\\s or \\\\s"
 
 #: ../wechat/re_split.rst:76
 msgid "但是会输出分隔符本身"
-msgstr ""
+msgstr "but it will print separator itself."
 
 #: ../wechat/re_split.rst:80
 msgid "非捕获组"
-msgstr ""
+msgstr "non group"
 
 #: ../wechat/re_split.rst:94
 msgid "这个时候就可以用正则表达式里面的 非捕获组（会把匹配上的字符忽略掉），"
-msgstr ""
+msgstr "we can use non group in regular expressions, it will ignore the match string, "
 
 #: ../wechat/re_split.rst:96
 msgid "具体的表现形式是在 圆括号 里面的 最前面 加上 ``?:``"
-msgstr ""
+msgstr "the concrete output is : ``(?:)``"
 
 #: ../wechat/re_split.rst:98
 msgid "这样结果就会去掉分隔符"
-msgstr ""
+msgstr "the result will delete separator"
 
 #: ../wechat/re_split.rst:100
 msgid "达到我们的目的"
-msgstr ""
+msgstr "arrive our purpose"
 
 #: ../wechat/re_split.rst:102
 msgid "当然，方法不止一种"
-msgstr ""
+msgstr "of course, we have multiple methods."
 
 #: ../wechat/re_split.rst:117
 msgid "直接用 | 分割 字符串 ，放入 !\\s 和 \\\\s 也能达到效果"
-msgstr ""
+msgstr "split string by '|' directly, input !\\s and \\\\s will arrive our purpose"
 
 #: ../wechat/re_split.rst:119
 msgid "灵活的运用正则表达式，就能对字符串做出各种处理。"
-msgstr ""
+msgstr "we can get our purpose using regular expressions."
 

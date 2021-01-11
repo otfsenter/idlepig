@@ -19,5 +19,5 @@ msgstr ""
 
 #: ../wechat/index.rst:4
 msgid "微信公众号"
-msgstr ""
+msgstr "WeChat public account"
 
