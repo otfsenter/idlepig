@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, IdlePig
+# This file is distributed under the same license as the 首页 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 首页 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-12 00:28+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../apple.rst:5
+msgid "apple"
+msgstr ""
+
+#: ../apple.rst:8
+msgid "关闭登陆界面多个用户登陆"
+msgstr ""
+
+#: ../apple.rst:11
+msgid ""
+"sudo defaults write /Library/Preferences/com.apple.loginwindow "
+"SHOWOTHERUSERS_MANAGED -bool FALSE"
+msgstr ""
+
+#: ../apple.rst:14
+msgid "强开随航"
+msgstr ""
+
+#: ../apple.rst:16
+msgid "defaults write com.apple.sidecar.display AllowAllDevices -bool true"
+msgstr ""
+
+#: ../apple.rst:18
+msgid "defaults write com.apple.sidecar.display hasShownPref -bool true"
+msgstr ""
+
+#: ../apple.rst:21
+msgid "环境变量配置"
+msgstr ""
+
+#: ../apple.rst:23
+msgid "因为terminal每次只会加载.zshrc，所以必须要在.zshrc里面写alias和环境变量，才会每次重启终端生效配置"
+msgstr ""
+
+#: ../apple.rst:28
+msgid "苹果 电源适配器延长线缆"
+msgstr ""
+
+#: ../apple.rst:31
+msgid "https://www.apple.com.cn/shop/product/MK122CH/A"
+msgstr ""
+

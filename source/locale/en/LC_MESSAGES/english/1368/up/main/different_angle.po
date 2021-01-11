@@ -1,0 +1,353 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, IdlePig
+# This file is distributed under the same license as the 首页 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 首页 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-12 00:28+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../english/1368/up/main/different_angle.rst:5
+msgid "skill three: 捏软乎的"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:7
+msgid "这话听上去怎么像是在说“拣软柿子捏”啊？没错，就是这个意思，因为软的好欺负。"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:9
+msgid "前面说了，同一件事可以有不同的说法。如果你想用的那个说法在r词汇表中一时找不到顺手的单词，大词也没有，实心词也找不到，千万别随便找个词凑合！而是要迅速地转换一下表达的角度，换个自己有把握的角度。这就叫“捏软乎的”。"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:11
+msgid "举个例子吧！比如说，你想表达下面这个意思："
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:13
+msgid "我喜欢吃瘦肉。"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:15
+msgid ""
+"很多人脑子里的第一反应会是thin这个词，“瘦”的意思嘛！但又不是很有把握，因为我们以前只是在说“他长得很瘦”的时候用到这个词，但不晓得说“瘦肉”是不是也可以用这个词。好啦，既然没把握，就不要“霸王硬上弓”啦，你要是说成i"
+" like to eat thin meat.可就闹笑话了！那怎么办呢？其实准确的表达应该是lean meat, "
+"lean是指含脂肪比较少的肉，但这个词并不在r词汇表中，所以这时我们就要换一个说法，“瘦”不会说，你还不会说“肥”吗？喜欢吃瘦肉，反过来讲不就是“不喜欢吃肥肉”吗？fat这个词你是有把握的啊！除了胖之外，我们都知道它有“脂肪”的意思，那这个肥肉的表达是有把握的啦！所以，这句话你就可以灵机一动说成是："
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:17
+msgid "**i don't like fat meat.**"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:19
+msgid "再举个类似的例子。你想跟老外说，“这个土豆是生的”。“生”（raw）这个词不会说，不会说就不要勉强嘛！“生”不会，“熟”我还不会吗？我说它没煮过不就可以了吗？所以，这话就可以说成："
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:21
+msgid "**this potato is not cooked.**"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:23
+msgid "这就是我们要讲的转换角度第一招：“正着不会反着说”。还有其他两招分别是：“我不会说你来说”和“人不会说东西说”。"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:26
+msgid "正着不会反着说"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:28
+msgid "先说第一招，“正着不会反着说”。其实这招很好理解，就是用反义词嘛！没错，这世界原本就很简单，上有天下有地，人分男女，兽有公母，阴的反面就是阳，善的对手就是恶。只要把你会说的那个词否定掉就是你不会说的那个意思了。这招虽然比较简单，但我这儿还是有几个词需要强调一下。"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:30
+msgid ""
+"一是keep的用法。这个词在英语中经常用来进行否定表达的，可以用来代替很多汉语中相反的概念，只是因为我们不大熟悉这个词的用法，所以用起来并不是很顺手。比方说，我们汉语习惯说“零钱不用找了”。这个“找”字很多人一时反应不过来怎么说，其实就可以用keep进行反向表达，“不用找”的意思就是“可以留着”，所以可以说成是：you"
+" can keep the change.或you can keep it.这其实也是最地道的英语表达。还有下面的例子："
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:32
+msgid "**keep it to yourself.**"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:34
+msgid "这事不能对别人说。"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:36
+msgid "**he keeps something from his wife.**"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:38
+msgid "他对妻子隐瞒了些什么。"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:40
+msgid "**the baby keeps us up all night.**"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:42
+msgid "宝宝闹腾得我们一夜没睡。"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:44
+msgid "二是off的用法。off也是我们很不习惯用的一个词，但这个词的能量非常大，在后面的章节会有详细说明，这里先就其否定词的作用让大家一窥斑豹。举个例子，我们买东西的时候经常会碰到打折的产品，比如说，“所有的衬衫打八折”。当然我们可以用discount这个词，但这个词并不在我们的r词汇表之上，那如何通过off这个词来解决呢？很简单，你只要说："
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:46
+#, python-format
+msgid "**all the shirts are 20%off.**"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:48
+msgid "什么意思？就是说所有衬衫的价格会去掉20%。其实这种表达比起用discount来还更简洁一些，因为discount是名词，你还必须加一个动词才能把意思说完整。"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:50
+msgid "还有另外一个类似的例子。你去理发的时候（尤其是男士），一般理发师会问你：“要留多长啊？”这个“留”字，很多人又不知道怎么说了，但用了off这个词，问题就一下子解决了："
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:52
+msgid "**how much do you want your hair off?**"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:54
+msgid "off的否定作用还可以帮你解决以下问题："
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:56
+msgid "**his free throw shooting was off.**"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:58
+msgid "他罚球没有罚中。"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:60
+msgid "**he rides bicycle with his hands off the handle.**"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:62
+msgid "他骑车的时候不扶车把。"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:64
+msgid "以上两个例子其实也说明了英语和汉语在看问题角度上的一个差别，一个正着看，另一个反着看。掌握了这个规律也有助于我们把英语说得更加灵活。"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:67
+msgid "我不会说你来说"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:69
+msgid "转换角度第二招：“我不会说你来说”。"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:71
+msgid "这是什么意思呢？大家还记得本章节刚开始时的那个例句吗？“小儿子继承了她所有的财产。”一共有四个说法，其中前两个是："
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:73
+msgid "**her youngest son got all her property.**"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:75
+msgid "**she gave all the property to her youngest son.**"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:77
+msgid "这两句话就是“我不会说你来说”的体现。我们说话的很多时候是在表达两个人之间关于某种事物的所有关系，这个事物可能是具体的，也可能是抽象的。既可以表达为一个人给了另一个人某种东西，反过来也可以表达为另一个人从这个人手里得到了某种东西。也就是说，如果“我”做主语不好表达，那就换成以“你”来做主语。就这个例句而言，当事人分别是她的小儿子和她，要表达的是这两人之间对财产的所有关系。她把财产给了小儿子，也就等于小儿子从她那里得到了她的财产。"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:79
+msgid "再举一个类似的例子："
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:81
+msgid "银行批给了我30万元按揭贷款。"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:83
+msgid "如果你不知道mortgage（按揭）怎么说的话，那就换成是当事人的另一方，以“我”为主语来表达，变成："
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:85
+msgid "**i borrowed 300，000 yuan from the bank.**"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:87
+msgid "问题轻松解决。再给一个抽象的例子："
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:89
+msgid "你把感冒传染给了我。"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:91
+msgid "如果infect（传染）不会说，你可以换个角度以“我”做主语，说成是："
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:93
+msgid "**i got the cold from you.**"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:95
+msgid "当然，如果你知道infect还有个大词可以代替的话，这句也可以说成："
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:97
+msgid "**you gave me the cold.**"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:99
+msgid "类似的例子还有，你问商家："
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:101
+msgid "你们这儿可以刷卡吗？"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:103
+msgid "如果“刷卡”不会说，那就换成“我”做主语，变成："
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:105
+msgid "**can i use bank card?**"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:108
+msgid "人不会说东西说"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:110
+msgid "转换角度第三招，“人不会说东西说”。"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:112
+msgid "如果我不会说的事情换成你还是不会说怎么办？那就只能用最后一招了，让“东西替你开口表达”！继续引用前面的例句：小儿子继承了她所有的财产。"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:114
+msgid "**all her property goes to her youngest son.**"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:116
+msgid "在这句话中，主语既不是“小儿子”也不是“她”，而是变成了“财产”这个第三者。按说财产是个没有生命的东西，既没长脚也没长腿，怎么能让它go呢？这就是英语和汉语之间一个非常大的区别，也是我们要重点掌握的一个表达技巧。汉语习惯于从人的角度，以人做主语来表达，但英语却经常转换角度，以物做主语进行表达。这样做的好处就是：可以让英语说得更简单一些，因为有些事情不好从人的角度来表述或者不需要知道是谁做的事情。"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:118
+msgid "go是这一类词的典型代表。比如在颁奖典礼上，嘉宾经常要说一句："
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:120
+msgid "获奖的是xxx。"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:122
+msgid "汉语用的是人做主语，英语当然也可以直接说成是：the winner is xxx.但在很多场合下，是用奖品做主语，说成下面这个样子："
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:124
+msgid "**the award goes to xxx.**"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:126
+msgid "奖品变成一个会走路的东西了。生活中，我们也有大量类似的用法，比如："
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:128
+msgid "**my headache just doesn't go.**"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:130
+msgid "我的头疼老是好不了。"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:132
+msgid "**i don't know where all my money goes！**"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:134
+msgid "我不知道钱都花到哪儿去了！"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:136
+msgid "**where do these plates go?**"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:138
+msgid "这些盘子要放在哪儿呀？"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:140
+msgid "我们后面有个章节是专门介绍动词go的，大家可以参考。"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:142
+msgid "除了go之外，经常用来以物做主语的典型动词还有come, bring, say, speak, wait, stay, stop等动词，如："
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:144
+msgid "**this dress comes in three colors.**"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:146
+msgid "这条裙子有三种颜色。"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:148
+msgid "**what brings you here today?**"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:150
+msgid "今天什么风把你给吹来了？"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:152
+msgid "**what do these figures say?**"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:154
+msgid "这些数字说明了什么？"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:156
+msgid "**her success speaks for itself.**"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:158
+msgid "她的成功说明了一切。"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:160
+msgid "**the paperwork can stay till tomorrow.**"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:162
+msgid "案头工作可以明天再做。"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:164
+msgid "**my hat wont stay.**"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:166
+msgid "我的帽子老戴不住。"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:168
+msgid "**your responsibility doesn't stop here.**"
+msgstr ""
+
+#: ../english/1368/up/main/different_angle.rst:170
+msgid "你该干的事还没干完呢！"
+msgstr ""
+
