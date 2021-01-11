@@ -20,7 +20,7 @@ import sphinx_bootstrap_theme
 
 # project = 'IdlePig · 公众号：Python脚本'
 project = '首页'
-copyright = '2020, IdlePig'
+copyright = '2021, IdlePig'
 author = 'IdlePig'
 
 
