@@ -14,3 +14,4 @@ source/t.html
 **/*.pot
 __pycache__
 source/locale/.doctrees
+**/*.DS_Store
