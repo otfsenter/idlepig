@@ -33,9 +33,15 @@ Python、Linux运维、自动化
     c
     windows
     apple
+    zhihu/index
     
 
 
 .. raw:: html
 
     <a target="_blank" href="https://mp.weixin.qq.com/s?__biz=MzU1NTY5MjMyNg==&mid=2247483848&idx=1&sn=25fcac6d45e01c65a8d688aa7c6f1202&chksm=fbd13981cca6b09796c0f8680be8fefc43f88e6402d10322750bb18d0c4b52ceeb0af2232ddb&token=994548522&lang=zh_CN#rd"> <img src="https://note.youdao.com/yws/api/personal/file/WEBf1a12c76ffc392012344ded4e9f6d823?method=download&shareKey=695cff73d21089a7a85c8e45083a8165" alt="wechat"> </a>
+
+
+.. raw:: html
+
+    <a href="http://www.beian.miit.gov.cn" target="_blank">粤ICP备19052369号-2</a>
