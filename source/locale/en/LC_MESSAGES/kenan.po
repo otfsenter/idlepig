@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../kenan.rst:4
 msgid "柯南主线剧情"
-msgstr "the main plot of play"
+msgstr "the main story line"
 
 #: ../kenan.rst:1
 msgid "集数"
