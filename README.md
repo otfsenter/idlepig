@@ -1,4 +1,4 @@
 # IdlePig
 
-This is a blog for Python
+This is a blog for IdlePig
 
