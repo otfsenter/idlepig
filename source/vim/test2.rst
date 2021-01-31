@@ -1,7 +1,10 @@
-.. _vim-test1:
+.. _vim-test2:
 
 *********
-vim test1
+vim test2
 *********
+
 
 .. mdinclude:: test.md
+    :orphan:
+
