@@ -1,3 +1,6 @@
+.. _vim-test-md:
+
+
 # test1
 
 ## test1 title level 2 abc
