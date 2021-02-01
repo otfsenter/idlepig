@@ -31,6 +31,7 @@ author = 'idlepig'
 extensions = [
         'sphinx.ext.autodoc',
         'm2r2',
+        'sphinx.ext.graphviz',
  #        'nbsphinx',
 ]
 
@@ -72,3 +73,12 @@ locale_dirs = ['locale/']
 gettext_compact = False
 
 # html_baseurl = 'http://www.idlepig.cn/'
+
+# 设置 graphviz_dot 路径
+graphviz_dot = '/usr/local/Cellar/graphviz/2.44.1/bin/dot'
+# 设置 graphviz_dot_args 的参数，这里默认了默认字体
+graphviz_dot_args = ['-Gfontname=Microsoft YaHei',
+                     '-Nfontname=Microsoft YaHei',
+                     '-Efontname=Microsoft YaHei']
+# 输出格式，默认png，这里我用svg矢量图
+graphviz_output_format = 'svg'
