@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 首页 \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-12 00:28+0800\n"
+"POT-Creation-Date: 2021-02-02 22:24+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,97 +17,193 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.0\n"
 
-#: ../vim/skill.rst:4
+#: ../vim/skill.rst:5
 msgid "skill"
 msgstr ""
 
-#: ../vim/skill.rst:7
-msgid "打印出匹配的行"
+#: ../vim/skill.rst:8
+msgid "settings for find python error automatically"
 msgstr ""
 
-#: ../vim/skill.rst:9
-msgid ":g/sub_str/p"
-msgstr ""
-
-#: ../vim/skill.rst:13
-msgid "全局替换单词"
-msgstr ""
-
-#: ../vim/skill.rst:15
-msgid "先*找到，然后::"
+#: ../vim/skill.rst:11
+msgid "environment settings"
 msgstr ""
 
 #: ../vim/skill.rst:20
-msgid "每行自动递增序号"
+msgid "custom python compiler"
 msgstr ""
 
-#: ../vim/skill.rst:34
-msgid "插入模式删除字符、单词、行"
+#: ../vim/skill.rst:22
+msgid "python.vim path"
 msgstr ""
 
-#: ../vim/skill.rst:36
-msgid "delete letter"
+#: ../vim/skill.rst:24
+msgid "~/.vim/compiler/python.vim"
 msgstr ""
 
-#: ../vim/skill.rst:38
-msgid "ctrl-h"
+#: ../vim/skill.rst:26
+msgid "windows python vim path"
 msgstr ""
 
-#: ../vim/skill.rst:40
-msgid "delete word"
+#: ../vim/skill.rst:28
+msgid "D:\\Vim\\vim82\\compiler\\python.vim"
 msgstr ""
 
-#: ../vim/skill.rst:42
-msgid "ctrl-w"
+#: ../vim/skill.rst:31
+msgid "python.vim code"
 msgstr ""
 
-#: ../vim/skill.rst:44
-msgid "delete line"
-msgstr ""
-
-#: ../vim/skill.rst:46
-msgid "ctrl-u"
-msgstr ""
-
-#: ../vim/skill.rst:50
-msgid "插入-普通模式临时切换"
-msgstr ""
-
-#: ../vim/skill.rst:59
-msgid "插入模式复制"
+#: ../vim/skill.rst:57
+msgid "vimrc config"
 msgstr ""
 
 #: ../vim/skill.rst:67
+msgid "fold keymap"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "keymap"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "meaning"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "za"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "toggle"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "zc"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "close"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "zo"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "open"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "zf"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "fold"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "zM"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "fold all"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "zR"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "unfold all"
+msgstr ""
+
+#: ../vim/skill.rst:81
+msgid "打印出匹配的行"
+msgstr "print match lines"
+
+#: ../vim/skill.rst:83
+msgid ":g/sub_str/p"
+msgstr ""
+
+#: ../vim/skill.rst:87
+msgid "全局替换单词"
+msgstr "change word global"
+
+#: ../vim/skill.rst:89
+msgid "先*找到，然后::"
+msgstr "first, find *, then ::"
+
+#: ../vim/skill.rst:94
+msgid "每行自动递增序号"
+msgstr "increase number in every line automatically "
+
+#: ../vim/skill.rst:108
+msgid "插入模式删除字符、单词、行"
+msgstr "delete character, word, line in insert mode"
+
+#: ../vim/skill.rst:110
+msgid "delete letter"
+msgstr ""
+
+#: ../vim/skill.rst:112
+msgid "ctrl-h"
+msgstr ""
+
+#: ../vim/skill.rst:114
+msgid "delete word"
+msgstr ""
+
+#: ../vim/skill.rst:116
+msgid "ctrl-w"
+msgstr ""
+
+#: ../vim/skill.rst:118
+msgid "delete line"
+msgstr ""
+
+#: ../vim/skill.rst:120
+msgid "ctrl-u"
+msgstr ""
+
+#: ../vim/skill.rst:124
+msgid "插入-普通模式临时切换"
+msgstr "switch insert mode or normal mode temp"
+
+#: ../vim/skill.rst:133
+msgid "插入模式复制"
+msgstr "copy in insert mode"
+
+#: ../vim/skill.rst:141
 msgid "二合字母"
-msgstr ""
+msgstr "two-alpha letter"
 
-#: ../vim/skill.rst:73
+#: ../vim/skill.rst:147
 msgid "<ctrl-k>然后输入两个字母"
-msgstr ""
+msgstr "input two letter after <Ctrl-K>"
 
-#: ../vim/skill.rst:76
+#: ../vim/skill.rst:150
 msgid "命令模式的所有命令"
-msgstr ""
+msgstr "all commands in command mode"
 
-#: ../vim/skill.rst:84
+#: ../vim/skill.rst:158
 msgid "拼写检查"
-msgstr ""
+msgstr "spell check"
 
-#: ../vim/skill.rst:86
+#: ../vim/skill.rst:160
 msgid "set spell"
 msgstr ""
 
-#: ../vim/skill.rst:88
+#: ../vim/skill.rst:162
 msgid "set spelllang=en_us,cjk"
 msgstr ""
 
-#: ../vim/skill.rst:90
+#: ../vim/skill.rst:164
 msgid "set spellcapcheck="
 msgstr ""
 
-#: ../vim/skill.rst:92
+#: ../vim/skill.rst:166
 msgid "插入模式下，<ctrl-x>s"
-msgstr ""
+msgstr "insert mode, <Ctrl-X>s"
 
 #: ../vim/skill.rst:1
 msgid "command"
@@ -123,7 +219,7 @@ msgstr ""
 
 #: ../vim/skill.rst:1
 msgid "查找上一个拼写错误的"
-msgstr ""
+msgstr "find previous spelling mistake"
 
 #: ../vim/skill.rst:1
 msgid "]s"
@@ -131,7 +227,7 @@ msgstr ""
 
 #: ../vim/skill.rst:1
 msgid "查找下一个拼写错误的"
-msgstr ""
+msgstr "find next spelling mistake"
 
 #: ../vim/skill.rst:1
 msgid "z="
@@ -139,7 +235,7 @@ msgstr ""
 
 #: ../vim/skill.rst:1
 msgid "普通模式，给出拼写提示"
-msgstr ""
+msgstr "show spell hint in normal mode"
 
 #: ../vim/skill.rst:1
 msgid "zg"
@@ -147,7 +243,7 @@ msgstr ""
 
 #: ../vim/skill.rst:1
 msgid "添加到词典"
-msgstr ""
+msgstr "add in dict"
 
 #: ../vim/skill.rst:1
 msgid "zw"
@@ -155,7 +251,7 @@ msgstr ""
 
 #: ../vim/skill.rst:1
 msgid "从词典删除"
-msgstr ""
+msgstr "delete from dict"
 
 #: ../vim/skill.rst:1
 msgid "zug"
@@ -163,5 +259,5 @@ msgstr ""
 
 #: ../vim/skill.rst:1
 msgid "撤销zg或zw的动作"
-msgstr ""
+msgstr "undo zg or zw action"
 
