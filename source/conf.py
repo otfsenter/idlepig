@@ -46,6 +46,7 @@ templates_path = ['_templates']
 # exclude_patterns = []
 exclude_patterns = [
     'vim/*.md',
+    '0-todo.rst'
         ]
 
 
