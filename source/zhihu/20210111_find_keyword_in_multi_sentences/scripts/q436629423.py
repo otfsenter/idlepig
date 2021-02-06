@@ -10,10 +10,10 @@ def get_match_info(source, keyword):
     match_list = []
     for sentence in chinese_dot_list:
         if keyword in sentence:
-            print(sentence + '。')
+            ru(sentence + '。')
 
             match_list.append(sentence)
-    print('there are % sentences' % len(match_list))
+    ru('there are % sentences' % len(match_list))
 
 
 def main():
@@ -23,8 +23,8 @@ def main():
              ' Compared with other object-oriented languages (such as C++ and Java), Python does not emphasize concepts, ' \
              'And focus on practicality. Let programmers feel the benefits of object-oriented, which is one of the reasons it can attract many supporters.'
 
-    print('source：')
-    print(source)
+    ru('source：')
+    ru(source)
 
     keyword = input("please input keyword(like: Python): ")
 
