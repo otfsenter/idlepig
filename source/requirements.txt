@@ -1,9 +1,11 @@
 alabaster==0.7.12
 Babel==2.9.0
+blockdiag==2.0.1
 certifi==2020.12.5
 chardet==4.0.0
 click==7.1.2
 docutils==0.16
+funcparserlib==0.3.6
 graphviz==0.13.2
 idna==2.10
 imagesize==1.2.0
@@ -13,6 +15,7 @@ m2r2==0.2.7
 MarkupSafe==1.1.1
 mistune==0.8.4
 packaging==20.8
+Pillow==8.1.0
 Pygments==2.7.3
 pyparsing==2.4.7
 pytz==2020.5
@@ -28,3 +31,4 @@ sphinxcontrib-jsmath==1.0.1
 sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.4
 urllib3==1.26.2
+webcolors==1.11.1
