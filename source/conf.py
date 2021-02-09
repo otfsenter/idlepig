@@ -33,6 +33,7 @@ extensions = [
     "sphinx.ext.autodoc",
     "m2r2",
     "sphinxcontrib.blockdiag",
+    "docxbuilder",
 ]
 
 
@@ -77,3 +78,19 @@ if os.name == "posix":
 
 
 blockdiag_html_image_format = "SVG"
+
+# docx_documents = [
+#     (
+#         "index",
+#         "/Users/zhouxinzheng/note/idlepig/docxbuilder.docx",
+#         {
+#             "title": "project",
+#             "creator": "idlepig",
+#             "subject": "a blog for idlepig",
+#         },
+#         True,
+#     ),
+# ]
+
+# docx_style = "/Users/zhouxinzheng/style.docx"
+# docx_pagebreak_before_section = 1
