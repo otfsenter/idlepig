@@ -1,7 +1,7 @@
-.. _sphinx-latex:
+.. _sphinx-pandoc:
 
-latex
-*****
+pandoc
+***********
 
 to pdf
 ========
@@ -47,6 +47,15 @@ to pdf
 to docx
 =======
 
+simple
+
 .. code-block::
 
    pandoc c.rst -o c.docx
+
+
+稍微复杂一点的
+
+.. code:;
+
+   pandoc -o c.docx -f rst+east_asian_line_breaks -s c.rst
