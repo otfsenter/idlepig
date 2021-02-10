@@ -9,6 +9,7 @@ source/.vscode/
 source/tmp.txt
 source/tmp1
 source/t.py
+source/t.json
 source/t.html
 **/*.mo
 **/*.pot
