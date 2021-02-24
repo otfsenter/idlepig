@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../books.rst:8
 msgid "c++ 算法书籍"
-msgstr ""
+msgstr "c++ algorithm"
 
 #: ../books.rst:10
 msgid "Data structures and algorithm analysis in C++  Mark Allen Weiss"
@@ -31,7 +31,7 @@ msgstr ""
 
 #: ../books.rst:13
 msgid "《TCP/IP协议详解》"
-msgstr ""
+msgstr "TCP/IP"
 
 #: ../books.rst:15
 msgid "tcpdump熟练"
@@ -64,4 +64,3 @@ msgstr ""
 #: ../books.rst:33
 msgid "了解Unix系统领域中的设计和开发哲学、思想文化体系、原则与经验。你一定会有一种醍醐灌顶的感觉。"
 msgstr ""
-
