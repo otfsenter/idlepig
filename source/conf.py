@@ -78,6 +78,7 @@ if os.name == "posix":
 
 
 blockdiag_html_image_format = "SVG"
+# blockdiag_html_image_format = "png"
 
 # docx_documents = [
 #     (
