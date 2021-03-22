@@ -33,7 +33,6 @@ extensions = [
     "sphinx.ext.autodoc",
     "m2r2",
     "sphinxcontrib.blockdiag",
-    "docxbuilder",
 ]
 
 
