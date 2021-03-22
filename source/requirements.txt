@@ -4,7 +4,7 @@ blockdiag==2.0.1
 certifi==2020.12.5
 chardet==4.0.0
 click==7.1.2
-docutils==0.16
+docutils==0.12
 docxbuilder==1.2.0
 funcparserlib==0.3.6
 graphviz==0.13.2
