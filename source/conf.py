@@ -74,7 +74,7 @@ gettext_compact = False
 # html_baseurl = 'http://www.idlepig.cn/'
 
 if os.name == "posix":
-    blockdiag_fontpath = "/System/Library/Fonts/STHeiti Light.ttc"
+    blockdiag_fontpath = u"/System/Library/Fonts/STHeiti Light.ttc"
 
 
 blockdiag_html_image_format = "SVG"
