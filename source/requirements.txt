@@ -5,12 +5,14 @@ certifi==2020.12.5
 chardet==4.0.0
 click==7.1.2
 docutils==0.16
+docxbuilder==1.2.0
 funcparserlib==0.3.6
 graphviz==0.13.2
 idna==2.10
 imagesize==1.2.0
 jieba==0.42.1
 Jinja2==2.11.2
+lxml==4.6.2
 m2r2==0.2.7
 MarkupSafe==1.1.1
 mistune==0.8.4
@@ -20,6 +22,7 @@ Pygments==2.7.3
 pyparsing==2.4.7
 pytz==2020.5
 requests==2.25.1
+six==1.15.0
 snowballstemmer==2.0.0
 Sphinx==3.4.3
 sphinx-intl==2.0.1
