@@ -39,23 +39,23 @@ SLB
 
         orientation = portrait
 
-        A [ label = "域名", shape = cloud];
-        B [ label = "主ELB的公网IP", shape = roundedbox];
-        C [ label = "备ELB的公网IP", shape = roundedbox];
-        D [ label = "同样的SLB服务器"];
-        E [ label = "同样的SLB服务器"];
-        G [ label = "服务器，微服务现网主集群，部署在主机房", stacked];
-        F [ label = "微服务灰度集群", stacked];
-        H [ label = "微服务现网备集群，部署在备机房", stacked];
+        A [ label = "dns name", shape = cloud];
+        B [ label = "public IP for main ELB", shape = roundedbox];
+        C [ label = "public IP for backup ELB", shape = roundedbox];
+        D [ label = "the same servers of SLB"];
+        E [ label = "the same servers of SLB"];
+        G [ label = "az1 group(main group)", stacked];
+        F [ label = "gray group", stacked];
+        H [ label = "az2 group", stacked];
 
         A -> B;
         A -> C;
         B -> D;
         C -> E;
-        D -> G [ label = "主" ];
+        D -> G [ label = "az1" ];
         E -> G;
-        D -> F [ style = dashed , label = "灰度"];
-        D -> H [ style = dashed , label = "备"];
+        D -> F [ style = dashed , label = "gray"];
+        D -> H [ style = dashed , label = "az2"];
 
         group elb {
         B; C;
@@ -79,6 +79,7 @@ SLB
 
 
    }
+
 
 
 域名到ELB，比如 idlepig.cn 这个域名后端配置两个A记录，分别对应的是两个ELB的公网IP，端口是443端口，对应的协议是https，证书也是绑定在ELB上面，这样用户访问域名的时候，流量会转发到两个IP上面。
@@ -116,10 +117,10 @@ todo, 具体的SLB配置
         A -> C;
         B -> D;
         C -> E;
-        D -> G [ label = "主" ];
+        D -> G [ label = "az1" ];
         E -> G;
-        D -> F [ style = dashed , label = "灰度"];
-        D -> H [ style = dashed , label = "备"];
+        D -> F [ style = dashed , label = "gray"];
+        D -> H [ style = dashed , label = "az2"];
 
         group elb {
         B; C;
@@ -141,6 +142,7 @@ todo, 具体的SLB配置
         }
 
    }
+
 
 
 
