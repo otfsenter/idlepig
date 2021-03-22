@@ -1,39 +1,4 @@
-- [3大流程](#3---)
-  * [SD](#sd)
-  * [ITR](#itr)
-  * [BCM](#bcm)
-  * [EAP](#eap)
-- [功能模块](#----)
-  * [权限管理](#----)
-  * [CMDB](#cmdb)
-  * [配置管理](#----)
-  * [部署](#--)
-  * [作业平台](#----)
-  * [EAP](#eap-1)
-  * [告警系统](#----)
-  * [业务监控](#----)
-- [spug](#spug)
-  * [主机管理](#----)
-  * [主机批量执行](#------)
-  * [主机在线终端](#------)
-  * [文件在线上传下载](#--------)
-  * [应用发布部署](#------)
-  * [在线任务计划](#------)
-  * [配置中心](#----)
-  * [监控](#--)
-  * [报警](#--)
-- [CODO](#codo)
-  * [codo-admin](#codo-admin)
-  * [codo-cron](#codo-cron)
-  * [codo-task](#codo-task)
-  * [codo-cmdb](#codo-cmdb)
-  * [codo-kerrigan](#codo-kerrigan)
-  * [codo-tools](#codo-tools)
-  * [codo-dns](#codo-dns)
-
-
-
-# 3大流程
+# 内部的3大流程
 
 ## SD
 
@@ -93,7 +58,7 @@ Event Automation Platform - 事件自动化平台
 
 
 
-# 功能模块
+# 内部-功能模块
 
 ## 权限管理
 
@@ -168,7 +133,11 @@ Event Automation Platform - 事件自动化平台
 
 
 
-# spug
+# github-spug
+
+[github地址](https://github.com/openspug/spug)
+
+
 
 ## 主机管理
 ## 主机批量执行
@@ -180,7 +149,7 @@ Event Automation Platform - 事件自动化平台
 ## 监控
 ## 报警
 
-# CODO
+# github-CODO
 
 [总体文档地址](https://github.com/opendevops-cn/opendevops)
 
@@ -243,6 +212,3 @@ Event Automation Platform - 事件自动化平台
   
 
   
-
-
-
