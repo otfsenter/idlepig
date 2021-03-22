@@ -149,4 +149,12 @@ todo, 具体的SLB配置
 
 
 业务服务器 - flume - 流kafka - spark - 批kafka - es - kibana
+
 业务服务器 - flume - 流kafka - spark - 批kafka - druid - 前端报表
+
+自动化运维平台-模块
+==================
+
+.. mdinclude:: structure_ops_system.md
+
+.. mdinclude:: add_hosts.md
