@@ -1,0 +1,28 @@
+# setup deploy date time
+- set-fact:
+    datetime: "{{lookup('pipe', 'date +%Y-%m-%d:%H:%M:%S')}}"
+
+# prepare profile file
+- name: prepare profile file
+  shell: touch ~/.profile
+
+# prepare ~/.bashrc file
+- name: prepare ~/.bashrc file
+  shell: touch ~/.bashrc
+
+- name: inject HOST_IP
+  lineinfile: dest=~/.bashrc regexp='^export HOST_IP=*' line='export HOST_IP={{inventory_hostname}}'
+
+# prepare install dir
+- name: create install dir
+  file: path={{app_install_path}} state=directory
+
+# clean unusable dir
+- name: clean unusable dir
+  cleandir: path={{app_release_path}} link={{app_path}}
+  when: clear_directories == true
+  ignore_errors: yes
+
+# prepare scope dir, for placing app_path link
+- name: make sure apps scope dir exists
+  file: dest={{app_scope_path}} state=directory

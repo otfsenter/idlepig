@@ -1,0 +1,5 @@
+- name: Install app
+  hosts: all
+  roles:
+    - {role: global}
+    - {role: install}

@@ -1,0 +1,6 @@
+{
+  "type": "playbook",
+  "scope": "common",
+  "name": "app-install",
+  "version": "0.0.1"
+}

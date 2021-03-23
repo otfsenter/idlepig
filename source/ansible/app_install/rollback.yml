@@ -1,0 +1,4 @@
+- name: Rollback to backup
+  hosts: all
+  roles:
+    - {role: rollback}

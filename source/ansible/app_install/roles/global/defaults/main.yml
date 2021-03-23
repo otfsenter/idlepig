@@ -1,0 +1,3 @@
+app_path: /opt/idlepig/apps/{{app_scope}}/{{app_name}}
+
+confd_path: /opt/huawei/dconf/etc/confd

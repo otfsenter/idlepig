@@ -1,0 +1,12 @@
+input:
+  - name: app_name
+    type: module
+  - name: app_scope
+    type: scope
+  - name: app_version
+    type: version
+    default: ""
+  - name: clear_directories
+    type: bool
+    default: True
+    description: delete old directory

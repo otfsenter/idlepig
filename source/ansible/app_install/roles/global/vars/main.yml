@@ -1,0 +1,7 @@
+app_scope_path: "{{app_path | dirname}}"
+
+app_release_path: "/opt/idlepig/release/{{app_scope}}/{{app_name}}"
+app_install_path: "{{app_release_path}}/{{datetime | regex_replace('[-:]', '')}}"
+
+app_confd_toml_path: "{{confd_path}}/conf.d/{{app_scope}}/{{app_name}}"
+app_confd_tmpl_path: "{{confd_path}}/templates/{{app_scope}}/{{app_name}}"
