@@ -47,7 +47,7 @@ templates_path = ["_templates"]
 # This pattern also affects html_static_path and html_extra_path.
 # exclude_patterns = []
 # exclude_patterns = ["vim/*.md", "0-todo.rst"]
-exclude_patterns = ["*/*.md", "*/*.yml", "*/*.json"]
+exclude_patterns = ["*/*.md", "*/*.yml", "*/*.json", "*/*/*.md"]
 
 
 # -- Options for HTML output -------------------------------------------------
