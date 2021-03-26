@@ -150,11 +150,17 @@ Java后端技术体系
 - `ArrayList`
 - LinkedList
 - `Vector`
+
+
 ##### Set
+
 - `HashSet`
 - LinkedHashSet
 - TreeSet
+
+
 #### Map
+
 - `HashMap`
 - Hashtable
 - LinkedHashMap
@@ -173,46 +179,66 @@ Java后端技术体系
 
 ### 线程（基础）
 #### 线程介绍
+
 #### `线程使用`
+
 - 继承Thread
 - 实现Runnable
 
 #### 线程方法
 #### 线程生命周期
+
 #### `Synchronized`
+
 #### `互斥锁`
+
 #### 死锁
 
 
 ### IO流
+
 #### 文件
+
 - 概念
 - 常用操作
+
+
 #### IO流原理及流的分类
+
 #### 节点流和处理流
+
 #### `输入流`
+
 ##### InputStream
+
 - FileInputStream
 - BufferedInputStream
 - ObjectInputStream
 
+
 ##### Reader
+
 - FileReader
 - BufferedReader
 - InputStreamReader
 
 #### `输出流`
+
 ##### OutputStream
+
 - FileOutputStream
 - BufferedOutputStream
 - ObjectOutputStream
 
+
 ##### Writer
+
 - FileWriter
 - BufferedWriter
 - OutputStreamWriter
 
 #### Properties类
+
 
 ### 坦克大战
 
@@ -221,18 +247,31 @@ Java后端技术体系
 ## 第三阶段：分析需求，代码实现能力
 
 ### 网络编程
+
 #### 网络基础
+
 #### InetAddress
+
 #### Socket
+
 #### `TCP编程`
+
 - 字节流
+
 - 字符流
+
 #### UDP编程
+
 ### 反射
+
 #### 反射机制
+
 #### Class类
+
 #### 类的加载
+
 #### `反射获取类的结构信息`
+
 - Class
 - Field
 - Method
@@ -240,29 +279,40 @@ Java后端技术体系
 - 访问属性
 - 访问方法
 
+
 ### mysql基础
+
 后面讲高级篇（优化、集群和项目实战）
 
 #### mysql安装和配置
 #### 数据库
+
 - 创建
 - 查看、删除数据库
 - 备份恢复数据库
 
+
 #### 表
+
 - 创建
 - 删除
 - 修改
+
 #### `mysql数据类型`
+
 #### `CRUD`
+
 ##### insert
 ##### update
 ##### delete
 ##### select
+
 - 单表
 - 多表
 
+
 #### `函数`
+
 - 统计函数
 - 时间日期
 - 字符串函数
@@ -270,15 +320,20 @@ Java后端技术体系
 - 流程控制
 
 #### 内连接
+
 #### 外连接
+
 #### 约束
+
 - not null
 - primary key
 - unique
 - foreign key
 - check
 - 自增长
+
 #### 索引
+
 - 主键索引
 - 唯一索引（UNIQUE）
 - 普通索引（INDEX）
@@ -288,46 +343,66 @@ Java后端技术体系
 
 
 ### JDBC和连接池
+
 #### JDBC概述
+
 #### JDBC快速入门
+
 #### `JDBC API`
+
 - PreparedStatement
 - DriverManager
 - Statement
 - ResultSet
+
 #### JDBCUtils
+
 #### `事务`
+
 #### 批处理
+
 #### `连接池`
+
 - DataSource
 - DBCP
 - C3P0
 - Proxool
 - BoneCP
 - `Druid`
+
 #### Apache-DBUtils
+
 #### `DAO增删改查-BasicDao`
 
 
 ### 正则表达式
+
 #### 快速入门
+
 #### 正则表达式基本语法
+
 #### `三个常用类`
+
 - Pattern
 - Matcher
 - PatternSyntaxException
+
 #### `分组、捕获、反向引用`
+
 #### `元字符`
+
 - 限定符
 - 选择匹配符
 - 分组组合和反向引用符
 - 特殊字符
 - 字符匹配符
 - 定位符
+
 #### 应用实例
 
 ### java 8 java11 新特性
 #### java8新特性
+
 - `lambda`
 - `函数式接口`
 - 接口静态方法
@@ -339,8 +414,11 @@ Java后端技术体系
 - 串行流
 - Optional
 - 新时间日期API
+
 #### java11新特性
+
 ##### 代码层面新特性
+
 - JShell
 - `类型推断`
 - `集合增强API`
@@ -349,7 +427,9 @@ Java后端技术体系
 - Optional加强
 - InputStream增强API
 - 标准Java异步HTTP客户
+
 ##### 其他新特性
+
 - 简化的编译运行
 - 支持Unicode 10
 - Epsilon垃圾搜集器
@@ -360,11 +440,17 @@ Java后端技术体系
 - 增加加密算法、代替RC4
 - 最新HTTPS安全协议TLS 1.3
 - 移除和废弃的内容
+
 ### 项目
+
 #### 骑士周游问题
+
 算法、优化
+
 #### 满汉楼
+
 #### 多用户通信系统
+
 推消息、私聊、发文件
 
 
