@@ -19,5 +19,5 @@ msgstr ""
 
 #: ../index.rst:18
 msgid "Python、Linux运维、自动化"
-msgstr ""
+msgstr "Python, Linux operations, automation"
 
