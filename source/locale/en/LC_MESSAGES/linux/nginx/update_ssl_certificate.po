@@ -77,5 +77,5 @@ msgstr "http configuration"
 
 #: ../linux/nginx/update_ssl_certificate.rst:113
 msgid "**这个http的配置中，配置了一个301，这样就算访问http也会重定向到https**"
-msgstr "**you will redirect to https if visit http for configuring 301 in this configuration file **"
+msgstr "**you will redirect to https if visit http for configuring 301 in this configuration file**"
 
