@@ -65,7 +65,7 @@ msgstr "rule configuration files: config.json"
 
 #: ../python/auto_move_files.rst:30
 msgid "电影的关键字，前缀、后缀的列表、文件夹名字"
-msgstr "keywords of movie, the list of prefix and suffix, directory name"
+msgstr "keywords of movie: prefix, suffix, folder"
 
 #: ../python/auto_move_files.rst:50
 msgid "keywords 中有前缀、后缀，逐一判断这些关键字，如果匹配，"
