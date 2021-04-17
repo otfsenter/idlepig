@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../python/auto_move_files.rst:4
 msgid "自动归档文件"
-msgstr ""
+msgstr "move files automatically"
 
 #: ../python/auto_move_files.rst:6
 msgid ":ref:`wechat`"
@@ -27,67 +27,67 @@ msgstr ""
 
 #: ../python/auto_move_files.rst:8
 msgid "一共三种文件：电影、图片、小说，"
-msgstr ""
+msgstr "three files: movie, pictures, novel"
 
 #: ../python/auto_move_files.rst:10
 msgid "想要实现的效果是：当这些文件从浏览器下载到一个固定文件夹下面时，脚本能及时识别 并 自动归档到相应的电影、图片、小说的文件夹下面。"
-msgstr ""
+msgstr "the result want to be: the scripts know the category of files in directory downloaded from chrome and move file to directory of movie or pictures or novels"
 
 #: ../python/auto_move_files.rst:12
 msgid "监视文件夹变化需要用到 `watchdog` 模块"
-msgstr ""
+msgstr "monitor change of files by `watchdog` module"
 
 #: ../python/auto_move_files.rst:14
 msgid "移动文件需要用到 `shutil` 模块"
-msgstr ""
+msgstr "move files by `shutil` module"
 
 #: ../python/auto_move_files.rst:17
 msgid "步骤"
-msgstr ""
+msgstr "steps"
 
 #: ../python/auto_move_files.rst:19
 msgid ""
 "监视 downloads 文件夹的文件变化情况，类名：MyHandler, 继承自 "
 "watchdog.events.FileSystemEventHandler"
-msgstr ""
+msgstr "monitor change of downloads directory, class name: MyHandler, inherit from watchdog.events.FileSystemEventHandler"
 
 #: ../python/auto_move_files.rst:21
 msgid "根据规则判断得到目标路径，函数名：get_des_folder, 参数是 filename(文件名)"
-msgstr ""
+msgstr "generate destination path by rule, function name: get_des_folder, parameter name: filename"
 
 #: ../python/auto_move_files.rst:23
 msgid "移动文件，函数名： move_multiple_times，参数是 file_src(原路径), file_des(目标路径)"
-msgstr ""
+msgstr "move files, function name: move_multiple_times, parameter name: file_src, file_des"
 
 #: ../python/auto_move_files.rst:28
 msgid "规则配置文件 config.json"
-msgstr ""
+msgstr "rule configuration files: config.json"
 
 #: ../python/auto_move_files.rst:30
 msgid "电影的关键字，前缀、后缀的列表、文件夹名字"
-msgstr ""
+msgstr "keywords of movie, the list of prefix and suffix, directory name"
 
 #: ../python/auto_move_files.rst:50
 msgid "keywords 中有前缀、后缀，逐一判断这些关键字，如果匹配，"
-msgstr ""
+msgstr "there are prefix and suffix of keywords, judge keywords one by one, if match"
 
 #: ../python/auto_move_files.rst:52
 msgid "取 folder 对应的 movie 来作为文件夹的名字，"
-msgstr ""
+msgstr "rename folder name by movie from folder name"
 
 #: ../python/auto_move_files.rst:54
 msgid "图片、小说同理，具体的配置放在了最后面的 :ref:`python-auto-move-files-config-file`"
-msgstr ""
+msgstr "the same as novels and pictures, concrete configuration in the end  :ref:`python-auto-move-files-config-file`"
 
 #: ../python/auto_move_files.rst:58
 msgid "具体的代码"
-msgstr ""
+msgstr "code"
 
 #: ../python/auto_move_files.rst:171
 msgid "配置文件"
-msgstr ""
+msgstr "configuration files"
 
 #: ../python/auto_move_files.rst:173
 msgid "回到 :ref:`python-auto-move-files-config-json` 标题"
-msgstr ""
+msgstr "return :ref:`python-auto-move-files-config-json` title"
 

@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../python/auto_get_schedule.rst:4
 msgid "用Python自动获取排班人员"
-msgstr ""
+msgstr "get people at work by python automatically"
 
 #: ../python/auto_get_schedule.rst:6
 msgid ":ref:`wechat`"
@@ -27,21 +27,21 @@ msgstr ""
 
 #: ../python/auto_get_schedule.rst:8
 msgid "总体思路是对比班次的开始时间和结束时间，"
-msgstr ""
+msgstr "compare start time and end time of work period time"
 
 #: ../python/auto_get_schedule.rst:10
 msgid "计算出当前的班次，"
-msgstr ""
+msgstr "calculate current work period time"
 
 #: ../python/auto_get_schedule.rst:12
 msgid "再根据班次得出当前的值班人员，"
-msgstr ""
+msgstr "then get current people through work period time"
 
 #: ../python/auto_get_schedule.rst:14
 msgid "最后用while循环，实时刷新当前的值班人员，"
-msgstr ""
+msgstr "finally, refresh current work people very seconds using while loop"
 
 #: ../python/auto_get_schedule.rst:16
 msgid "当然也可以去个重，如果这个周期和上个周期的值班人员一样，不显示，如果不一样再显示出来也可以，更具有实用性"
-msgstr ""
+msgstr "of course, we can delete duplicate data if getting same people in current and previous duration"
 
