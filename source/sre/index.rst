@@ -8,3 +8,4 @@ SRE
 .. toctree::
 
    structure
+   alarm
