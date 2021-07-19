@@ -1,0 +1,147 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, IdlePig
+# This file is distributed under the same license as the IdlePig package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IdlePig \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-19 20:11+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../linux/work.rst:4
+msgid "Work"
+msgstr ""
+
+#: ../linux/work.rst:8
+msgid "代码的自动部署"
+msgstr ""
+
+#: ../linux/work.rst:10
+msgid "jenkins 自动话拉取代码、测试、打包、部署"
+msgstr ""
+
+#: ../linux/work.rst:13
+msgid "自动化运维"
+msgstr ""
+
+#: ../linux/work.rst:15
+msgid "使用ansible控制多台服务器，临时的用 ad-hoc 来操作，常用的操作使用 playbook 写成配置文件，自动化平时的一些运维操作"
+msgstr ""
+
+#: ../linux/work.rst:18
+msgid "中间件的运维"
+msgstr ""
+
+#: ../linux/work.rst:20
+msgid "redis"
+msgstr ""
+
+#: ../linux/work.rst:22
+msgid "Cassandra"
+msgstr ""
+
+#: ../linux/work.rst:24
+msgid "kafka"
+msgstr ""
+
+#: ../linux/work.rst:26
+msgid "上面的主要是热点key、大key的优化，消息队列的堆积，双云的差异率"
+msgstr ""
+
+#: ../linux/work.rst:29
+msgid "微服务"
+msgstr ""
+
+#: ../linux/work.rst:31
+msgid "每个业务单元一套服务，对外通过url+端口的方式提供服务,这样哪个业务中断了，只要单独重启一个服务即可"
+msgstr ""
+
+#: ../linux/work.rst:34
+msgid "这里配合使用docker，k8s更加易维护。"
+msgstr ""
+
+#: ../linux/work.rst:37
+msgid "接口"
+msgstr ""
+
+#: ../linux/work.rst:39
+msgid "每个接口要关注的字段，接口的监控等级，"
+msgstr ""
+
+#: ../linux/work.rst:41
+msgid "成功率"
+msgstr ""
+
+#: ../linux/work.rst:43
+msgid "业务的情况"
+msgstr ""
+
+#: ../linux/work.rst:45
+msgid "时延监控"
+msgstr ""
+
+#: ../linux/work.rst:48
+msgid "进程的自启动"
+msgstr ""
+
+#: ../linux/work.rst:50
+msgid "使用 watchdog 自启 tomcat进程、nginx进程"
+msgstr ""
+
+#: ../linux/work.rst:52
+msgid "端口的监控如果挂死，watchdog自动恢复"
+msgstr ""
+
+#: ../linux/work.rst:55
+msgid "系统资源的监控"
+msgstr ""
+
+#: ../linux/work.rst:57
+msgid "zabbix 监控CPU、内存、磁盘IO读写等系统资源"
+msgstr ""
+
+#: ../linux/work.rst:60
+msgid "巡检"
+msgstr ""
+
+#: ../linux/work.rst:62
+msgid "例行的巡检可以写shell或者python脚本定时任务执行，每周发健康周报"
+msgstr ""
+
+#: ../linux/work.rst:65
+msgid "常发生的问题"
+msgstr ""
+
+#: ../linux/work.rst:67
+msgid "java 内存泄漏"
+msgstr ""
+
+#: ../linux/work.rst:69
+msgid "造成的服务器不可用，在生产环境时有发生，服务器要做HA高可用，或者用nginx做负载均衡"
+msgstr ""
+
+#: ../linux/work.rst:71
+msgid "各种第三方包版本不对引起的bug"
+msgstr ""
+
+#: ../linux/work.rst:73
+msgid "打包之前，验证各个jar包的版本"
+msgstr ""
+
+#: ../linux/work.rst:75
+msgid "接口的降级"
+msgstr ""
+
+#: ../linux/work.rst:77
+msgid "访问量过大的时候，不重要的接口直接返回错误，客户端要对应做修改"
+msgstr ""
+

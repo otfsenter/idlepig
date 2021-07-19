@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, IdlePig
+# This file is distributed under the same license as the IdlePig package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IdlePig \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-19 20:21+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../sre/structure.rst:5
+msgid "架构"
+msgstr ""
+
+#: ../sre/structure.rst:8 ../sre/structure.rst:13
+msgid "双云架构"
+msgstr ""
+
+#: ../sre/structure.rst:9 ../sre/structure.rst:150
+msgid "大数据监控"
+msgstr ""
+
+#: ../sre/structure.rst:10
+msgid "微服务架构"
+msgstr ""
+
+#: ../sre/structure.rst:16
+msgid "所谓双云就是主机群在一个数据中心，备集群在另一个数据中心，正常的流量走向是全部到主集群，如果一个数据中心出现问题，会自动切换到备集群，以实现主备架构，保证业务不会中断。"
+msgstr ""
+
+#: ../sre/structure.rst:19
+msgid "名词解释"
+msgstr ""
+
+#: ../sre/structure.rst:22
+msgid "域名"
+msgstr ""
+
+#: ../sre/structure.rst:22
+msgid "一个网站的的入口、名字。"
+msgstr ""
+
+#: ../sre/structure.rst:25
+msgid "ELB"
+msgstr ""
+
+#: ../sre/structure.rst:25
+msgid "Elastic Load Balancer, 弹性负载均衡，让ELB后端的服务能平衡地承接用户访问的流量，主要是流量的转发。"
+msgstr ""
+
+#: ../sre/structure.rst:28
+msgid "SLB"
+msgstr ""
+
+#: ../sre/structure.rst:28
+msgid ""
+"Software Load "
+"Balancer，软件负载均衡，使用openresty实现，openresty由nginx和lua脚本组成，主要是根据uri转发流量到不同机房、限流、灰度规则设置等等。"
+msgstr ""
+
+#: ../sre/structure.rst:30
+msgid "一般架构是域名到两个ELB，两个ELB转发流量到相同的几台SLB服务器，最后由SLB转发到具体的微服务服务器，微服务有3个集群，分别是主、备集群和灰度集群，以形成双云的结构。"
+msgstr ""
+
+#: ../sre/structure.rst:33
+msgid "架构图"
+msgstr ""
+
+#: ../sre/structure.rst:85
+msgid ""
+"域名到ELB，比如 idlepig.cn "
+"这个域名后端配置两个A记录，分别对应的是两个ELB的公网IP，端口是443端口，对应的协议是https，证书也是绑定在ELB上面，这样用户访问域名的时候，流量会转发到两个IP上面。"
+msgstr ""
+
+#: ../sre/structure.rst:87
+msgid "ELB到SLB，两个ELB的分别绑定同样的SLB服务器，SLB的端口是8080，这样域名到ELB的443端口，再把流量转发到SLB的8080端口。"
+msgstr ""
+
+#: ../sre/structure.rst:89
+msgid "SLB到后端服务器，SLB由openresty搭建，openresty由nginx加lua脚本，扩展了nginx的功能。SLB通过不同的uri把不同的流量转发到不同的后端集群，比如平时流量都是到主集群，灰度变更的时候，通过配置规则，可以让流量转发到灰度集群，当主集群出现问题的时候，流量会自动转发到备集群。"
+msgstr ""
+
+#: ../sre/structure.rst:94
+msgid "todo, 具体的SLB配置"
+msgstr ""
+
+#: ../sre/structure.rst:98
+msgid "具体配置：上面描述对应的结构图"
+msgstr ""
+
+#: ../sre/structure.rst:153
+msgid "业务服务器 - flume - 流kafka - spark - 批kafka - es - kibana"
+msgstr ""
+
+#: ../sre/structure.rst:155
+msgid "业务服务器 - flume - 流kafka - spark - 批kafka - druid - 前端报表"
+msgstr ""
+

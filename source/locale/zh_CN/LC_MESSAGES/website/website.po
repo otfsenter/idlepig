@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, IdlePig
+# This file is distributed under the same license as the IdlePig package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IdlePig \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-19 20:11+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../website/website.rst:5
+msgid "网站相关的信息"
+msgstr ""
+
+#: ../website/website.rst:8
+msgid "idlepig.cn的备案号"
+msgstr ""
+
+#: ../website/website.rst:10
+msgid "**footer**"
+msgstr ""
+
+#: ../website/website.rst:16
+msgid "在show_sphinx这个tag里面"
+msgstr ""
+
+#: ../website/website.rst:26
+msgid "google ping"
+msgstr ""
+
+#: ../website/website.rst:28
+msgid "能加大google爬取网站的机率"
+msgstr ""
+
+#: ../website/website.rst:30
+msgid "https://www.google.com/ping?sitemap=http://idlepig.cn/sitemap.xml"
+msgstr ""
+
+#: ../website/website.rst:34
+msgid "jetbrains图标"
+msgstr ""
+
+#: ../website/website.rst:36
+msgid "https://note.youdao.com/ynoteshare1/index.html?id=695cff73d21089a7a85c8e45083a8165&type=notebook#/WEB52da3a0c51d7778eb9db240f7a5d95ab"
+msgstr ""
+
+#: ../website/website.rst:39
+msgid "公众号图标"
+msgstr ""
+
+#: ../website/website.rst:41
+msgid "https://note.youdao.com/yws/api/personal/file/WEBf1a12c76ffc392012344ded4e9f6d823?method=download&shareKey=695cff73d21089a7a85c8e45083a8165"
+msgstr ""
+
+#: ../website/website.rst:45
+msgid "拉取otfsenter.github.io上面的网页到服务器"
+msgstr ""
+
+#: ../website/website.rst:55
+msgid "通过docker启动nginx服务"
+msgstr ""
+
+#: ../website/website.rst:57
+msgid "nginx.sh"
+msgstr ""
+
+#: ../website/website.rst:62
+msgid "没有本地的nginx好维护"
+msgstr ""
+
+#: ../website/website.rst:64
+msgid "现在使用本地加cdn的方法 :ref:`linux-nginx-config-cdn`"
+msgstr ""
+
+#: ../website/website.rst:68
+msgid "ctrontab"
+msgstr ""
+
+#: ../website/website.rst:70
+msgid "定时拉取github上面的otfsenter.github.io.git这个仓库，解决上传之后，服务器不更新的问题"
+msgstr ""
+
+#: ../website/website.rst:76
+msgid "pull.sh脚本的内容"
+msgstr ""
+

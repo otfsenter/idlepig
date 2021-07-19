@@ -31,8 +31,9 @@ author = "idlepig"
 # ones.
 extensions = [
     "sphinx.ext.autodoc",
-    "m2r2",
-    "sphinxcontrib.blockdiag",
+    # "m2r2",
+    # "sphinxcontrib.blockdiag",
+    "myst_parser",
 ]
 
 
@@ -48,8 +49,6 @@ templates_path = ["_templates"]
 # exclude_patterns = []
 # exclude_patterns = ["vim/*.md", "0-todo.rst"]
 exclude_patterns = [
-    "*/*.md",
-    "source/java/*.md",
     "*/*.yml",
     "*/*.json"
 ]
@@ -82,7 +81,7 @@ gettext_compact = False
     # blockdiag_fontpath = "/System/Library/Fonts/STHeiti Light.ttc"
 
 
-blockdiag_html_image_format = "SVG"
+# blockdiag_html_image_format = "SVG"
 # blockdiag_html_image_format = "png"
 
 # docx_documents = [

@@ -1,0 +1,1243 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, IdlePig
+# This file is distributed under the same license as the IdlePig package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IdlePig \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-19 20:21+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../java/java.md:1
+msgid "java init"
+msgstr ""
+
+#: ../java/java.md:3
+msgid "5个问题"
+msgstr ""
+
+#: ../java/java.md:5
+msgid "没有体系，像无头苍蝇"
+msgstr ""
+
+#: ../java/java.md:7
+msgid "学习动力不够，学的知识点不知道应用场景，没有乐趣"
+msgstr ""
+
+#: ../java/java.md:9
+msgid "深度不够，看不懂源码，多态不懂，基础差"
+msgstr ""
+
+#: ../java/java.md:10
+msgid "如何快速学习技术、编程、框架、设计模式，不知道会导致学新东西不够快"
+msgstr ""
+
+#: ../java/java.md:11
+msgid "没有建立正确的编程思维，不知道对不懂的问题下手，要建立自己的思维体系，从不懂一直到找到入口，有自己的一套思维体系。"
+msgstr ""
+
+#: ../java/java.md:15
+msgid "Java后端技术体系"
+msgstr ""
+
+#: ../java/java.md:17
+msgid "java基础"
+msgstr ""
+
+#: ../java/java.md:19
+msgid "第一阶段：建立编程思想"
+msgstr ""
+
+#: ../java/java.md:21
+msgid "java概述"
+msgstr ""
+
+#: ../java/java.md:25
+msgid "`如何快速学习java技术`"
+msgstr ""
+
+#: ../java/java.md:27
+msgid "java历史"
+msgstr ""
+
+#: ../java/java.md:29
+msgid "java特点"
+msgstr ""
+
+#: ../java/java.md:31
+msgid "sublime"
+msgstr ""
+
+#: ../java/java.md:33
+msgid "`java运行机制`"
+msgstr ""
+
+#: ../java/java.md:35
+msgid "`jdk`"
+msgstr ""
+
+#: ../java/java.md:37
+msgid "转义字符"
+msgstr ""
+
+#: ../java/java.md:39
+msgid "`java开发规范`"
+msgstr ""
+
+#: ../java/java.md:41
+msgid "java api"
+msgstr ""
+
+#: ../java/java.md:51
+msgid "变量"
+msgstr ""
+
+#: ../java/java.md:55
+msgid "`数据类型`"
+msgstr ""
+
+#: ../java/java.md:56
+msgid "变量基本使用"
+msgstr ""
+
+#: ../java/java.md:57
+msgid "数据类型转换"
+msgstr ""
+
+#: ../java/java.md:59
+msgid "运算符"
+msgstr ""
+
+#: ../java/java.md:63
+msgid "运算符介绍"
+msgstr ""
+
+#: ../java/java.md:64
+msgid "算数运算符"
+msgstr ""
+
+#: ../java/java.md:65
+msgid "关系运算符"
+msgstr ""
+
+#: ../java/java.md:66
+msgid "逻辑运算符"
+msgstr ""
+
+#: ../java/java.md:67
+msgid "赋值运算符"
+msgstr ""
+
+#: ../java/java.md:68
+msgid "三元运算符"
+msgstr ""
+
+#: ../java/java.md:69
+msgid "优先级"
+msgstr ""
+
+#: ../java/java.md:70
+msgid "`二进制`"
+msgstr ""
+
+#: ../java/java.md:71
+msgid "位运算符"
+msgstr ""
+
+#: ../java/java.md:73
+msgid "控制结构"
+msgstr ""
+
+#: ../java/java.md:77
+msgid "顺序"
+msgstr ""
+
+#: ../java/java.md:78
+msgid "分支（if else switch）"
+msgstr ""
+
+#: ../java/java.md:79
+msgid "`循环（for、while、do while）`"
+msgstr ""
+
+#: ../java/java.md:80
+msgid "break"
+msgstr ""
+
+#: ../java/java.md:81
+msgid "continue"
+msgstr ""
+
+#: ../java/java.md:82
+msgid "return"
+msgstr ""
+
+#: ../java/java.md:84
+msgid "数组、排序、查找"
+msgstr ""
+
+#: ../java/java.md:88
+msgid "`数组`"
+msgstr ""
+
+#: ../java/java.md:89
+msgid "排序"
+msgstr ""
+
+#: ../java/java.md:90
+msgid "查找"
+msgstr ""
+
+#: ../java/java.md:92
+msgid "面向对象编程（基础）"
+msgstr ""
+
+#: ../java/java.md:96
+msgid "类与对象"
+msgstr ""
+
+#: ../java/java.md:97
+msgid "`成员方法`"
+msgstr ""
+
+#: ../java/java.md:98
+msgid "`成员方法传参机制`"
+msgstr ""
+
+#: ../java/java.md:99
+msgid "overload"
+msgstr ""
+
+#: ../java/java.md:100
+msgid "可变参数"
+msgstr ""
+
+#: ../java/java.md:101
+msgid "作用域"
+msgstr ""
+
+#: ../java/java.md:102
+msgid "构造器"
+msgstr ""
+
+#: ../java/java.md:103
+msgid "this"
+msgstr ""
+
+#: ../java/java.md:105
+msgid "面向对象编程（中级）"
+msgstr ""
+
+#: ../java/java.md:109
+msgid "包"
+msgstr ""
+
+#: ../java/java.md:110
+msgid "访问修饰符"
+msgstr ""
+
+#: ../java/java.md:111
+msgid "`封装`"
+msgstr ""
+
+#: ../java/java.md:112
+msgid "`继承`"
+msgstr ""
+
+#: ../java/java.md:113
+msgid "`多态`"
+msgstr ""
+
+#: ../java/java.md:114
+msgid "super"
+msgstr ""
+
+#: ../java/java.md:115
+msgid "overwrite"
+msgstr ""
+
+#: ../java/java.md:116
+msgid "object类详解"
+msgstr ""
+
+#: ../java/java.md:117
+msgid "断点调试"
+msgstr ""
+
+#: ../java/java.md:121
+msgid "项目&学以致用，编程之乐"
+msgstr ""
+
+#: ../java/java.md:125
+msgid "零钱通"
+msgstr ""
+
+#: ../java/java.md:127
+msgid "房屋出租系统"
+msgstr ""
+
+#: ../java/java.md:128
+msgid "迷宫问题"
+msgstr ""
+
+#: ../java/java.md:129
+msgid "八皇后问题"
+msgstr ""
+
+#: ../java/java.md:130
+msgid "汉诺塔问题"
+msgstr ""
+
+#: ../java/java.md:132
+msgid "第二阶段：提升编程能力"
+msgstr ""
+
+#: ../java/java.md:133
+msgid "面向对象编程（高级）"
+msgstr ""
+
+#: ../java/java.md:137
+msgid "`类变量和类方法`"
+msgstr ""
+
+#: ../java/java.md:138
+msgid "理解main方法语法"
+msgstr ""
+
+#: ../java/java.md:139
+msgid "代码块"
+msgstr ""
+
+#: ../java/java.md:140
+msgid "单例设计模式"
+msgstr ""
+
+#: ../java/java.md:141
+msgid "final关键字"
+msgstr ""
+
+#: ../java/java.md:142
+msgid "抽象类"
+msgstr ""
+
+#: ../java/java.md:143
+msgid "`接口`"
+msgstr ""
+
+#: ../java/java.md:144
+msgid "`内部类`"
+msgstr ""
+
+#: ../java/java.md:146
+msgid "枚举和注解"
+msgstr ""
+
+#: ../java/java.md:150
+msgid "自定义类实现枚举"
+msgstr ""
+
+#: ../java/java.md:151
+msgid "enum关键字实现枚举"
+msgstr ""
+
+#: ../java/java.md:152
+msgid "JDK内置的基本注解类型"
+msgstr ""
+
+#: ../java/java.md:153
+msgid "元注解：对注解进行注解"
+msgstr ""
+
+#: ../java/java.md:155
+msgid "Exception"
+msgstr ""
+
+#: ../java/java.md:159
+msgid "异常的概念"
+msgstr ""
+
+#: ../java/java.md:160
+msgid "`异常体系图`"
+msgstr ""
+
+#: ../java/java.md:161
+msgid "常见的异常"
+msgstr ""
+
+#: ../java/java.md:162
+msgid "`异常处理`"
+msgstr ""
+
+#: ../java/java.md:163
+msgid "自定义异常"
+msgstr ""
+
+#: ../java/java.md:164
+msgid "throw和throws的对比"
+msgstr ""
+
+#: ../java/java.md:166
+msgid "常用类"
+msgstr ""
+
+#: ../java/java.md:170
+msgid "包装类"
+msgstr ""
+
+#: ../java/java.md:171
+msgid "`String`"
+msgstr ""
+
+#: ../java/java.md:172
+msgid "`StringBuffer`"
+msgstr ""
+
+#: ../java/java.md:173
+msgid "`StringBuilder`"
+msgstr ""
+
+#: ../java/java.md:174
+msgid "Math"
+msgstr ""
+
+#: ../java/java.md:175
+msgid "Date、Calendar、LocalDate..."
+msgstr ""
+
+#: ../java/java.md:176
+msgid "System"
+msgstr ""
+
+#: ../java/java.md:177
+msgid "Arrays"
+msgstr ""
+
+#: ../java/java.md:178
+msgid "BigInteger BigDecimal"
+msgstr ""
+
+#: ../java/java.md:180
+msgid "集合"
+msgstr ""
+
+#: ../java/java.md:184
+msgid "`集合框架体系`"
+msgstr ""
+
+#: ../java/java.md:185
+msgid "Collection"
+msgstr ""
+
+#: ../java/java.md:186
+msgid "List"
+msgstr ""
+
+#: ../java/java.md:187
+msgid "`ArrayList`"
+msgstr ""
+
+#: ../java/java.md:188
+msgid "LinkedList"
+msgstr ""
+
+#: ../java/java.md:189
+msgid "`Vector`"
+msgstr ""
+
+#: ../java/java.md:192
+msgid "Set"
+msgstr ""
+
+#: ../java/java.md:194
+msgid "`HashSet`"
+msgstr ""
+
+#: ../java/java.md:195
+msgid "LinkedHashSet"
+msgstr ""
+
+#: ../java/java.md:196
+msgid "TreeSet"
+msgstr ""
+
+#: ../java/java.md:199
+msgid "Map"
+msgstr ""
+
+#: ../java/java.md:201
+msgid "`HashMap`"
+msgstr ""
+
+#: ../java/java.md:202
+msgid "Hashtable"
+msgstr ""
+
+#: ../java/java.md:203
+msgid "LinkedHashMap"
+msgstr ""
+
+#: ../java/java.md:204
+msgid "TreeMap"
+msgstr ""
+
+#: ../java/java.md:205
+msgid "Properties"
+msgstr ""
+
+#: ../java/java.md:207
+msgid "Collections"
+msgstr ""
+
+#: ../java/java.md:209
+msgid "泛型"
+msgstr ""
+
+#: ../java/java.md:213
+msgid "泛型语法"
+msgstr ""
+
+#: ../java/java.md:214
+msgid "自定义泛型"
+msgstr ""
+
+#: ../java/java.md:215
+msgid "泛型类"
+msgstr ""
+
+#: ../java/java.md:216
+msgid "泛型接口"
+msgstr ""
+
+#: ../java/java.md:217
+msgid "泛型方法"
+msgstr ""
+
+#: ../java/java.md:218
+msgid "泛型继承和通配符"
+msgstr ""
+
+#: ../java/java.md:220
+msgid "线程（基础）"
+msgstr ""
+
+#: ../java/java.md:224
+msgid "线程介绍"
+msgstr ""
+
+#: ../java/java.md:226
+msgid "`线程使用`"
+msgstr ""
+
+#: ../java/java.md:228
+msgid "继承Thread"
+msgstr ""
+
+#: ../java/java.md:229
+msgid "实现Runnable"
+msgstr ""
+
+#: ../java/java.md:231
+msgid "线程方法"
+msgstr ""
+
+#: ../java/java.md:232
+msgid "线程生命周期"
+msgstr ""
+
+#: ../java/java.md:234
+msgid "`Synchronized`"
+msgstr ""
+
+#: ../java/java.md:236
+msgid "`互斥锁`"
+msgstr ""
+
+#: ../java/java.md:238
+msgid "死锁"
+msgstr ""
+
+#: ../java/java.md:240
+msgid "IO流"
+msgstr ""
+
+#: ../java/java.md:244
+msgid "文件"
+msgstr ""
+
+#: ../java/java.md:246
+msgid "概念"
+msgstr ""
+
+#: ../java/java.md:247
+msgid "常用操作"
+msgstr ""
+
+#: ../java/java.md:250
+msgid "IO流原理及流的分类"
+msgstr ""
+
+#: ../java/java.md:252
+msgid "节点流和处理流"
+msgstr ""
+
+#: ../java/java.md:254
+msgid "`输入流`"
+msgstr ""
+
+#: ../java/java.md:256
+msgid "InputStream"
+msgstr ""
+
+#: ../java/java.md:258
+msgid "FileInputStream"
+msgstr ""
+
+#: ../java/java.md:259
+msgid "BufferedInputStream"
+msgstr ""
+
+#: ../java/java.md:260
+msgid "ObjectInputStream"
+msgstr ""
+
+#: ../java/java.md:263
+msgid "Reader"
+msgstr ""
+
+#: ../java/java.md:265
+msgid "FileReader"
+msgstr ""
+
+#: ../java/java.md:266
+msgid "BufferedReader"
+msgstr ""
+
+#: ../java/java.md:267
+msgid "InputStreamReader"
+msgstr ""
+
+#: ../java/java.md:269
+msgid "`输出流`"
+msgstr ""
+
+#: ../java/java.md:271
+msgid "OutputStream"
+msgstr ""
+
+#: ../java/java.md:273
+msgid "FileOutputStream"
+msgstr ""
+
+#: ../java/java.md:274
+msgid "BufferedOutputStream"
+msgstr ""
+
+#: ../java/java.md:275
+msgid "ObjectOutputStream"
+msgstr ""
+
+#: ../java/java.md:278
+msgid "Writer"
+msgstr ""
+
+#: ../java/java.md:280
+msgid "FileWriter"
+msgstr ""
+
+#: ../java/java.md:281
+msgid "BufferedWriter"
+msgstr ""
+
+#: ../java/java.md:282
+msgid "OutputStreamWriter"
+msgstr ""
+
+#: ../java/java.md:284
+msgid "Properties类"
+msgstr ""
+
+#: ../java/java.md:287
+msgid "坦克大战"
+msgstr ""
+
+#: ../java/java.md:291
+msgid "第三阶段：分析需求，代码实现能力"
+msgstr ""
+
+#: ../java/java.md:293
+msgid "网络编程"
+msgstr ""
+
+#: ../java/java.md:297
+msgid "网络基础"
+msgstr ""
+
+#: ../java/java.md:299
+msgid "InetAddress"
+msgstr ""
+
+#: ../java/java.md:301
+msgid "Socket"
+msgstr ""
+
+#: ../java/java.md:303
+msgid "`TCP编程`"
+msgstr ""
+
+#: ../java/java.md:305
+msgid "字节流"
+msgstr ""
+
+#: ../java/java.md:307
+msgid "字符流"
+msgstr ""
+
+#: ../java/java.md:309
+msgid "UDP编程"
+msgstr ""
+
+#: ../java/java.md:311
+msgid "反射"
+msgstr ""
+
+#: ../java/java.md:315
+msgid "反射机制"
+msgstr ""
+
+#: ../java/java.md:317
+msgid "Class类"
+msgstr ""
+
+#: ../java/java.md:319
+msgid "类的加载"
+msgstr ""
+
+#: ../java/java.md:321
+msgid "`反射获取类的结构信息`"
+msgstr ""
+
+#: ../java/java.md:323
+msgid "Class"
+msgstr ""
+
+#: ../java/java.md:324
+msgid "Field"
+msgstr ""
+
+#: ../java/java.md:325
+msgid "Method"
+msgstr ""
+
+#: ../java/java.md:326
+msgid "Constructor"
+msgstr ""
+
+#: ../java/java.md:327
+msgid "访问属性"
+msgstr ""
+
+#: ../java/java.md:328
+msgid "访问方法"
+msgstr ""
+
+#: ../java/java.md:330
+msgid "mysql基础"
+msgstr ""
+
+#: ../java/java.md:334
+msgid "后面讲高级篇（优化、集群和项目实战）"
+msgstr ""
+
+#: ../java/java.md:336
+msgid "mysql安装和配置"
+msgstr ""
+
+#: ../java/java.md:337
+msgid "数据库"
+msgstr ""
+
+#: ../java/java.md:339 ../java/java.md:346
+msgid "创建"
+msgstr ""
+
+#: ../java/java.md:340
+msgid "查看、删除数据库"
+msgstr ""
+
+#: ../java/java.md:341
+msgid "备份恢复数据库"
+msgstr ""
+
+#: ../java/java.md:344
+msgid "表"
+msgstr ""
+
+#: ../java/java.md:347
+msgid "删除"
+msgstr ""
+
+#: ../java/java.md:348
+msgid "修改"
+msgstr ""
+
+#: ../java/java.md:350
+msgid "`mysql数据类型`"
+msgstr ""
+
+#: ../java/java.md:352
+msgid "`CRUD`"
+msgstr ""
+
+#: ../java/java.md:354
+msgid "insert"
+msgstr ""
+
+#: ../java/java.md:355
+msgid "update"
+msgstr ""
+
+#: ../java/java.md:356
+msgid "delete"
+msgstr ""
+
+#: ../java/java.md:357
+msgid "select"
+msgstr ""
+
+#: ../java/java.md:359
+msgid "单表"
+msgstr ""
+
+#: ../java/java.md:360
+msgid "多表"
+msgstr ""
+
+#: ../java/java.md:363
+msgid "`函数`"
+msgstr ""
+
+#: ../java/java.md:365
+msgid "统计函数"
+msgstr ""
+
+#: ../java/java.md:366
+msgid "时间日期"
+msgstr ""
+
+#: ../java/java.md:367
+msgid "字符串函数"
+msgstr ""
+
+#: ../java/java.md:368
+msgid "数学函数"
+msgstr ""
+
+#: ../java/java.md:369
+msgid "流程控制"
+msgstr ""
+
+#: ../java/java.md:371
+msgid "内连接"
+msgstr ""
+
+#: ../java/java.md:373
+msgid "外连接"
+msgstr ""
+
+#: ../java/java.md:375
+msgid "约束"
+msgstr ""
+
+#: ../java/java.md:377
+msgid "not null"
+msgstr ""
+
+#: ../java/java.md:378
+msgid "primary key"
+msgstr ""
+
+#: ../java/java.md:379
+msgid "unique"
+msgstr ""
+
+#: ../java/java.md:380
+msgid "foreign key"
+msgstr ""
+
+#: ../java/java.md:381
+msgid "check"
+msgstr ""
+
+#: ../java/java.md:382
+msgid "自增长"
+msgstr ""
+
+#: ../java/java.md:384
+msgid "索引"
+msgstr ""
+
+#: ../java/java.md:386
+msgid "主键索引"
+msgstr ""
+
+#: ../java/java.md:387
+msgid "唯一索引（UNIQUE）"
+msgstr ""
+
+#: ../java/java.md:388
+msgid "普通索引（INDEX）"
+msgstr ""
+
+#: ../java/java.md:389
+msgid "全文索引"
+msgstr ""
+
+#: ../java/java.md:391
+msgid "事务"
+msgstr ""
+
+#: ../java/java.md:393
+msgid "JDBC和连接池"
+msgstr ""
+
+#: ../java/java.md:397
+msgid "JDBC概述"
+msgstr ""
+
+#: ../java/java.md:399
+msgid "JDBC快速入门"
+msgstr ""
+
+#: ../java/java.md:401
+msgid "`JDBC API`"
+msgstr ""
+
+#: ../java/java.md:403
+msgid "PreparedStatement"
+msgstr ""
+
+#: ../java/java.md:404
+msgid "DriverManager"
+msgstr ""
+
+#: ../java/java.md:405
+msgid "Statement"
+msgstr ""
+
+#: ../java/java.md:406
+msgid "ResultSet"
+msgstr ""
+
+#: ../java/java.md:408
+msgid "JDBCUtils"
+msgstr ""
+
+#: ../java/java.md:410
+msgid "`事务`"
+msgstr ""
+
+#: ../java/java.md:412
+msgid "批处理"
+msgstr ""
+
+#: ../java/java.md:414
+msgid "`连接池`"
+msgstr ""
+
+#: ../java/java.md:416
+msgid "DataSource"
+msgstr ""
+
+#: ../java/java.md:417
+msgid "DBCP"
+msgstr ""
+
+#: ../java/java.md:418
+msgid "C3P0"
+msgstr ""
+
+#: ../java/java.md:419
+msgid "Proxool"
+msgstr ""
+
+#: ../java/java.md:420
+msgid "BoneCP"
+msgstr ""
+
+#: ../java/java.md:421
+msgid "`Druid`"
+msgstr ""
+
+#: ../java/java.md:423
+msgid "Apache-DBUtils"
+msgstr ""
+
+#: ../java/java.md:425
+msgid "`DAO增删改查-BasicDao`"
+msgstr ""
+
+#: ../java/java.md:427
+msgid "正则表达式"
+msgstr ""
+
+#: ../java/java.md:431
+msgid "快速入门"
+msgstr ""
+
+#: ../java/java.md:433
+msgid "正则表达式基本语法"
+msgstr ""
+
+#: ../java/java.md:435
+msgid "`三个常用类`"
+msgstr ""
+
+#: ../java/java.md:437
+msgid "Pattern"
+msgstr ""
+
+#: ../java/java.md:438
+msgid "Matcher"
+msgstr ""
+
+#: ../java/java.md:439
+msgid "PatternSyntaxException"
+msgstr ""
+
+#: ../java/java.md:441
+msgid "`分组、捕获、反向引用`"
+msgstr ""
+
+#: ../java/java.md:443
+msgid "`元字符`"
+msgstr ""
+
+#: ../java/java.md:445
+msgid "限定符"
+msgstr ""
+
+#: ../java/java.md:446
+msgid "选择匹配符"
+msgstr ""
+
+#: ../java/java.md:447
+msgid "分组组合和反向引用符"
+msgstr ""
+
+#: ../java/java.md:448
+msgid "特殊字符"
+msgstr ""
+
+#: ../java/java.md:449
+msgid "字符匹配符"
+msgstr ""
+
+#: ../java/java.md:450
+msgid "定位符"
+msgstr ""
+
+#: ../java/java.md:452
+msgid "应用实例"
+msgstr ""
+
+#: ../java/java.md:454
+msgid "java 8 java11 新特性"
+msgstr ""
+
+#: ../java/java.md:458
+msgid "java8新特性"
+msgstr ""
+
+#: ../java/java.md:460
+msgid "`lambda`"
+msgstr ""
+
+#: ../java/java.md:461
+msgid "`函数式接口`"
+msgstr ""
+
+#: ../java/java.md:462
+msgid "接口静态方法"
+msgstr ""
+
+#: ../java/java.md:463
+msgid "接口默认方法"
+msgstr ""
+
+#: ../java/java.md:464
+msgid "方法引用"
+msgstr ""
+
+#: ../java/java.md:465
+msgid "构造器引用"
+msgstr ""
+
+#: ../java/java.md:466
+msgid "`stream API`"
+msgstr ""
+
+#: ../java/java.md:467
+msgid "并行流"
+msgstr ""
+
+#: ../java/java.md:468
+msgid "串行流"
+msgstr ""
+
+#: ../java/java.md:469
+msgid "Optional"
+msgstr ""
+
+#: ../java/java.md:470
+msgid "新时间日期API"
+msgstr ""
+
+#: ../java/java.md:472
+msgid "java11新特性"
+msgstr ""
+
+#: ../java/java.md:474
+msgid "代码层面新特性"
+msgstr ""
+
+#: ../java/java.md:476
+msgid "JShell"
+msgstr ""
+
+#: ../java/java.md:477
+msgid "`类型推断`"
+msgstr ""
+
+#: ../java/java.md:478
+msgid "`集合增强API`"
+msgstr ""
+
+#: ../java/java.md:479
+msgid "Stream加强"
+msgstr ""
+
+#: ../java/java.md:480
+msgid "新增字符串处理方法"
+msgstr ""
+
+#: ../java/java.md:481
+msgid "Optional加强"
+msgstr ""
+
+#: ../java/java.md:482
+msgid "InputStream增强API"
+msgstr ""
+
+#: ../java/java.md:483
+msgid "标准Java异步HTTP客户"
+msgstr ""
+
+#: ../java/java.md:485
+msgid "其他新特性"
+msgstr ""
+
+#: ../java/java.md:487
+msgid "简化的编译运行"
+msgstr ""
+
+#: ../java/java.md:488
+msgid "支持Unicode 10"
+msgstr ""
+
+#: ../java/java.md:489
+msgid "Epsilon垃圾搜集器"
+msgstr ""
+
+#: ../java/java.md:490
+msgid "ZGC"
+msgstr ""
+
+#: ../java/java.md:491
+msgid "JFR"
+msgstr ""
+
+#: ../java/java.md:492
+msgid "支持Linux容器"
+msgstr ""
+
+#: ../java/java.md:493
+msgid "支持G1上的并行完全垃圾搜集"
+msgstr ""
+
+#: ../java/java.md:494
+msgid "增加加密算法、代替RC4"
+msgstr ""
+
+#: ../java/java.md:495
+msgid "最新HTTPS安全协议TLS 1.3"
+msgstr ""
+
+#: ../java/java.md:496
+msgid "移除和废弃的内容"
+msgstr ""
+
+#: ../java/java.md:498 ../java/java.md:526
+msgid "项目"
+msgstr ""
+
+#: ../java/java.md:502
+msgid "骑士周游问题"
+msgstr ""
+
+#: ../java/java.md:504
+msgid "算法、优化"
+msgstr ""
+
+#: ../java/java.md:506
+msgid "满汉楼"
+msgstr ""
+
+#: ../java/java.md:508
+msgid "多用户通信系统"
+msgstr ""
+
+#: ../java/java.md:510
+msgid "推消息、私聊、发文件"
+msgstr ""
+
+#: ../java/java.md:514
+msgid "java高级"
+msgstr ""
+
+#: ../java/java.md:516
+msgid "java web"
+msgstr ""
+
+#: ../java/java.md:518
+msgid "主流的框架和项目管理"
+msgstr ""
+
+#: ../java/java.md:520
+msgid "分布式、微服务、并行架构"
+msgstr ""
+
+#: ../java/java.md:522
+msgid "DevOps（开发运维一体化），自动化部分管理项目，解决CI/CD"
+msgstr ""
+
+#: ../java/java.md:524
+msgid "大数据技术"
+msgstr ""
+
+#: ../java/java.md:528
+msgid "大厂的高频面试题"
+msgstr ""
+
+#: ../java/java.md:530
+msgid "底层源码、内核研究"
+msgstr ""
+

@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, IdlePig
+# This file is distributed under the same license as the IdlePig package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IdlePig \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-19 20:11+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../sre/add_hosts.md:1
+msgid "业务迁移、扩容机器注意事项"
+msgstr ""
+
+#: ../sre/add_hosts.md:3
+msgid "检查是否有公网权限，若不需要【去除】"
+msgstr ""
+
+#: ../sre/add_hosts.md:4
+msgid "检查规格，磁盘，所属用户是否一致"
+msgstr ""
+
+#: ../sre/add_hosts.md:5
+msgid "RASP【nuwa已集成】、wiseapm【调用链】、flume【日志采集】、添加软链接：workdir、nginxdir、applogs、logdir"
+msgstr ""
+
+#: ../sre/add_hosts.md:7
+msgid "安装SLB、刷新hosts、部署业务、"
+msgstr ""
+
+#: ../sre/add_hosts.md:9
+msgid "如果有使用ELB，需要把机器IP添加到内网或者公网ELB里面"
+msgstr ""
+
+#: ../sre/add_hosts.md:11
+msgid "如果是部署在新子网，需要给数据库加业务用户白名单"
+msgstr ""
+
+#: ../sre/add_hosts.md:13
+msgid "如果该模块有单独再其他领域添加白名单，需要联系开发将新机器IP给对应领域放通白名单"
+msgstr ""
+
+#: ../sre/add_hosts.md:15
+msgid "安装Datapush"
+msgstr ""
+
+#: ../sre/add_hosts.md:17
+msgid "检查业务是否具备开机自启"
+msgstr ""
+
+#: ../sre/add_hosts.md:18
+msgid "更新台账：跳板机、svn台账、云眼集群管理、云眼资源管理等"
+msgstr ""
+

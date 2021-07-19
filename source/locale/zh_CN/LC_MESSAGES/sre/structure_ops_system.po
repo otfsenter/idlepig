@@ -1,0 +1,431 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, IdlePig
+# This file is distributed under the same license as the IdlePig package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IdlePig \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-19 20:11+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../sre/structure_ops_system.md:1
+msgid "内部的3大流程"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:3
+msgid "SD"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:5
+msgid "service deploy"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:9
+msgid "工单管理"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:10
+msgid "服务部署"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:11 ../sre/structure_ops_system.md:85
+msgid "集群管理"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:12
+msgid "变更管理"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:13
+msgid "灰度管理"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:14
+msgid "IaC服务"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:15
+msgid "容器服务"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:16
+msgid "函数部署"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:17
+msgid "模型部署"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:18
+msgid "SQL执行"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:19
+msgid "中间件部署"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:21
+msgid "ITR"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:23
+msgid "issue to resolve"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:25
+msgid "告警管理"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:26
+msgid "告警屏蔽"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:27 ../sre/structure_ops_system.md:117
+msgid "告警修复"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:28
+msgid "事件管理"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:29
+msgid "安全事件"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:30
+msgid "域名预案管理"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:31
+msgid "服务状态"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:32
+msgid "问题跟踪"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:33
+msgid "AIOps"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:34
+msgid "调用链"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:35
+msgid "DCG管理"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:36
+msgid "Zabbix监控"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:37
+msgid "服务监控"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:39
+msgid "BCM"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:41
+msgid "Business Continuity Management"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:45
+msgid "Chaos Monkey"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:46
+msgid "健康管家"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:47
+msgid "BCM问题管理"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:51 ../sre/structure_ops_system.md:107
+msgid "EAP"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:53 ../sre/structure_ops_system.md:109
+msgid "Event Automation Platform - 事件自动化平台"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:55 ../sre/structure_ops_system.md:90
+msgid "作业平台"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:56 ../sre/structure_ops_system.md:99
+msgid "定时任务"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:57
+msgid "ChatOPs 规则、流程"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:61
+msgid "内部-功能模块"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:63
+msgid "权限管理"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:69
+msgid "CMDB"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:71
+msgid "configure management database"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:75
+msgid "域名管理"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:76 ../sre/structure_ops_system.md:142
+msgid "主机管理"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:77
+msgid "网络管理（EIP、ELB、SLB）"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:79
+msgid "配置管理"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:83
+msgid "部署"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:86
+msgid "部署管理"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:92
+msgid "工具库"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:94
+msgid "日志清理"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:95
+msgid "数据提取"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:97
+msgid "快速脚本执行"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:101
+msgid "主机权限申请"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:103
+msgid "作业清单"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:105
+msgid "文件分发（上传）"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:111
+msgid "ChatOps"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:113
+msgid "告警系统"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:115
+msgid "告警列表"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:116
+msgid "告警抑制"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:118
+msgid "告警修复日志"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:119
+msgid "告警接收配置"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:120
+msgid "告警收敛规则"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:121
+msgid "告警通知统计报表"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:122
+msgid "语音值班配置"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:123
+msgid "告警模拟测试"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:124
+msgid "业务报表"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:126
+msgid "业务监控"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:128
+msgid "zabbix模板管理"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:129
+msgid "模板设置"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:130
+msgid "绑定集群"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:131
+msgid "绑定具体服务器"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:132
+msgid "插件管理"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:136
+msgid "github-spug"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:138
+msgid "[github地址](https://github.com/openspug/spug)"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:143
+msgid "主机批量执行"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:144
+msgid "主机在线终端"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:145
+msgid "文件在线上传下载"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:146
+msgid "应用发布部署"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:147
+msgid "在线任务计划"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:148
+msgid "配置中心"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:149
+msgid "监控"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:150
+msgid "报警"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:152
+msgid "github-CODO"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:154
+msgid "[总体文档地址](https://github.com/opendevops-cn/opendevops)"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:158
+msgid "codo-admin"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:160
+msgid "基于Tornado实现，提供Restful风格的API，提供基于RBAC的完善权限管理，可对所有用户的操作进行审计"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:164
+msgid "codo-cron"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:166
+msgid "基于Tornado框架实现的一套定时任务系统，完全兼容Linux Crontab支持到秒级"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:170
+msgid "codo-task"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:172
+msgid "基于Tornado实现，系统核心调度，可分布式扩展"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:176
+msgid "codo-cmdb"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:178
+msgid "基于Tornado实现的一套资产管理系统,"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:180
+msgid "支持AWS、阿里云、腾讯云、华为云自动拉取资产信息等"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:184
+msgid "codo-kerrigan"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:186
+msgid "基于Tornado实现的一套配置中心，"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:188
+msgid "可基于分项目、环境管理配置，语法高亮、对比历史版本、快速回滚等，并提供Restful风格的API"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:192
+msgid "codo-tools"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:194
+msgid "CODO运维工具支持："
+msgstr ""
+
+#: ../sre/structure_ops_system.md:196
+msgid "告警管理、告警自愈、项目管理、事件管理、加密解密、随机密码、提醒管理等"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:200
+msgid "codo-dns"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:202
+msgid "支持多区域智能解析、可视化Bind操作、操作日志记录等。"
+msgstr ""
+
+#: ../sre/structure_ops_system.md:204
+msgid "支持阿里云、腾讯云、DNSPod、GoDaddy等厂商的云解析"
+msgstr ""
+

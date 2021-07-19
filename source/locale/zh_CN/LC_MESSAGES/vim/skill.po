@@ -1,0 +1,291 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, IdlePig
+# This file is distributed under the same license as the IdlePig package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IdlePig \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-19 20:11+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../vim/skill.rst:5
+msgid "skill"
+msgstr ""
+
+#: ../vim/skill.rst:8
+msgid "youcompleteme"
+msgstr ""
+
+#: ../vim/skill.rst:16
+msgid "download url"
+msgstr ""
+
+#: ../vim/skill.rst:18
+msgid "https://releases.llvm.org/download.html"
+msgstr ""
+
+#: ../vim/skill.rst:21
+msgid "lang+llvm-5.0.0-x86_64-apple-darwin.tar.xz"
+msgstr ""
+
+#: ../vim/skill.rst:29
+msgid "config"
+msgstr ""
+
+#: ../vim/skill.rst:65
+msgid "rstcheck ignore notice"
+msgstr ""
+
+#: ../vim/skill.rst:67
+msgid "vi ~/.rstcheck.cfg"
+msgstr ""
+
+#: ../vim/skill.rst:75
+msgid "settings for find python error automatically"
+msgstr ""
+
+#: ../vim/skill.rst:78
+msgid "environment settings"
+msgstr ""
+
+#: ../vim/skill.rst:88
+msgid "custom python compiler"
+msgstr ""
+
+#: ../vim/skill.rst:90
+msgid "python.vim path"
+msgstr ""
+
+#: ../vim/skill.rst:92
+msgid "~/.vim/compiler/python.vim"
+msgstr ""
+
+#: ../vim/skill.rst:94
+msgid "windows python vim path"
+msgstr ""
+
+#: ../vim/skill.rst:96
+msgid "D:\\\\Vim\\vim82\\\\compiler\\\\python.vim"
+msgstr ""
+
+#: ../vim/skill.rst:99
+msgid "python.vim code"
+msgstr ""
+
+#: ../vim/skill.rst:125
+msgid "vimrc config"
+msgstr ""
+
+#: ../vim/skill.rst:135
+msgid "fold keymap"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "keymap"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "meaning"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "za"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "toggle"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "zc"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "close"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "zo"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "open"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "zf"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "fold"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "zM"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "fold all"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "zR"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "unfold all"
+msgstr ""
+
+#: ../vim/skill.rst:149
+msgid "打印出匹配的行"
+msgstr ""
+
+#: ../vim/skill.rst:151
+msgid ":g/sub_str/p"
+msgstr ""
+
+#: ../vim/skill.rst:155
+msgid "全局替换单词"
+msgstr ""
+
+#: ../vim/skill.rst:157
+msgid "先*找到，然后::"
+msgstr ""
+
+#: ../vim/skill.rst:162
+msgid "每行自动递增序号"
+msgstr ""
+
+#: ../vim/skill.rst:176
+msgid "插入模式删除字符、单词、行"
+msgstr ""
+
+#: ../vim/skill.rst:178
+msgid "delete letter"
+msgstr ""
+
+#: ../vim/skill.rst:180
+msgid "ctrl-h"
+msgstr ""
+
+#: ../vim/skill.rst:182
+msgid "delete word"
+msgstr ""
+
+#: ../vim/skill.rst:184
+msgid "ctrl-w"
+msgstr ""
+
+#: ../vim/skill.rst:186
+msgid "delete line"
+msgstr ""
+
+#: ../vim/skill.rst:188
+msgid "ctrl-u"
+msgstr ""
+
+#: ../vim/skill.rst:192
+msgid "插入-普通模式临时切换"
+msgstr ""
+
+#: ../vim/skill.rst:201
+msgid "插入模式复制"
+msgstr ""
+
+#: ../vim/skill.rst:209
+msgid "二合字母"
+msgstr ""
+
+#: ../vim/skill.rst:215
+msgid "<ctrl-k>然后输入两个字母"
+msgstr ""
+
+#: ../vim/skill.rst:218
+msgid "命令模式的所有命令"
+msgstr ""
+
+#: ../vim/skill.rst:226
+msgid "拼写检查"
+msgstr ""
+
+#: ../vim/skill.rst:228
+msgid "set spell"
+msgstr ""
+
+#: ../vim/skill.rst:230
+msgid "set spelllang=en_us,cjk"
+msgstr ""
+
+#: ../vim/skill.rst:232
+msgid "set spellcapcheck="
+msgstr ""
+
+#: ../vim/skill.rst:234
+msgid "插入模式下，<ctrl-x>s"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "command"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "description"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "[s"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "查找上一个拼写错误的"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "]s"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "查找下一个拼写错误的"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "z="
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "普通模式，给出拼写提示"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "zg"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "添加到词典"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "zw"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "从词典删除"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "zug"
+msgstr ""
+
+#: ../vim/skill.rst:1
+msgid "撤销zg或zw的动作"
+msgstr ""
+
