@@ -8,9 +8,9 @@ os_dirs_dict = {
         'build_html_dir': r'D:\PycharmProjects\idlepig\build\html\.',
     },
     'darwin': {
-        'source_dir': '/Users/zhouxinzheng/note/idlepig',
-        'html_dir': '/Users/zhouxinzheng/note/html',
-        'build_html_dir': '/Users/zhouxinzheng/note/idlepig/build/html/.',
+        'source_dir': '/Users/zhouxinzheng/docs/idlepig',
+        'html_dir': '/Users/zhouxinzheng/docs/html',
+        'build_html_dir': '/Users/zhouxinzheng/docs/idlepig/build/html/.',
     }
 }
 
