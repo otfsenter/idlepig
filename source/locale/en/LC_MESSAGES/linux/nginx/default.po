@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, IdlePig
+# This file is distributed under the same license as the IdlePig package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IdlePig \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-25 18:30+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../linux/nginx/default.md:1
+msgid "default config"
+msgstr ""
+
+#: ../linux/nginx/default.md:3
+msgid "安装nginx"
+msgstr ""
+
+#: ../linux/nginx/default.md:9
+msgid "修改html文件目录权限"
+msgstr ""
+
+#: ../linux/nginx/default.md:17
+msgid "修改`/etc/nginx/nginx.conf`文件"
+msgstr ""
+
+#: ../linux/nginx/default.md:19
+msgid "server 80"
+msgstr ""
+
+#: ../linux/nginx/default.md:22
+msgid "`user nginx;`修改成`user root;`"
+msgstr ""
+
+#: ../linux/nginx/default.md:24 ../linux/nginx/default.md:49
+msgid "`root    /usr/share/nginx/html;`修改成`root    /root/html;`"
+msgstr ""
+
+#: ../linux/nginx/default.md:31 ../linux/nginx/default.md:56
+msgid "修改成"
+msgstr ""
+
+#: ../linux/nginx/default.md:40
+msgid "server 443"
+msgstr ""
+
+#: ../linux/nginx/default.md:42
+msgid "阿里云上面申请免费的证书，上传服务器，然后修改配置"
+msgstr ""
+
+#: ../linux/nginx/default.md:65
+msgid "如果开启了443"
+msgstr ""
+
+#: ../linux/nginx/default.md:67
+msgid "server 80里面需要修改的如下"
+msgstr ""
+
+#: ../linux/nginx/default.md:73
+msgid "or"
+msgstr ""
+

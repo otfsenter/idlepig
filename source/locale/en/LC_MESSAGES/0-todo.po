@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: IdlePig \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-19 20:11+0800\n"
+"POT-Creation-Date: 2021-07-25 18:30+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,46 +17,27 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.0\n"
 
-#: ../vim/test1.rst:5
-msgid "vim test1 rst"
+#: ../0-todo.rst:5
+msgid "TODO"
 msgstr ""
 
-#: ../A:1
-msgid "A"
+#: ../0-todo.rst:8
+msgid ""
+"[doing] (2021-02-26 23:35) nginx的流量转发规则,  :ref:`sre-structure-todo-slb-"
+"config`"
 msgstr ""
 
-#: ../browsers client:1 each in
-msgid "browsers in each client"
+#: ../0-todo.rst:11
+msgid "全球时事热点趋势追踪系统"
 msgstr ""
 
-#: ../B:1
-msgid "B"
+#: ../0-todo.rst:13
+msgid "适用自然语言处理与机器学习对新闻进行聚类并可视化。"
 msgstr ""
 
-#: ../web server:1
-msgid "web server"
+#: ../0-todo.rst:15
+msgid ""
+"key stacks: tensorflow, NLP, NodeJS, React, SOA构架(Service Oriented "
+"Architecture)"
 msgstr ""
-
-#: ../C:1
-msgid "C"
-msgstr ""
-
-#: ../database server:1
-msgid "database server"
-msgstr ""
-
-#~ msgid "test1"
-#~ msgstr ""
-
-#~ msgid "test1 title level 2 abc"
-#~ msgstr ""
-
-#~ msgid "hello"
-#~ msgstr ""
-
-#~ msgid "test1 title level 2 ef"
-#~ msgstr ""
-
-#~ msgid "bcd"
-#~ msgstr ""
 

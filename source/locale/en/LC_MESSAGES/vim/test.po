@@ -17,46 +17,27 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.0\n"
 
-#: ../vim/test1.rst:5
-msgid "vim test1 rst"
+#: ../vim/test.md:1
+msgid ".. _vim-test-md:"
 msgstr ""
 
-#: ../A:1
-msgid "A"
+#: ../vim/test.md:4
+msgid "test1"
 msgstr ""
 
-#: ../browsers client:1 each in
-msgid "browsers in each client"
+#: ../vim/test.md:6
+msgid "test1 title level 2 abc"
 msgstr ""
 
-#: ../B:1
-msgid "B"
+#: ../vim/test.md:8
+msgid "hello"
 msgstr ""
 
-#: ../web server:1
-msgid "web server"
+#: ../vim/test.md:11
+msgid "test1 title level 2 ef"
 msgstr ""
 
-#: ../C:1
-msgid "C"
+#: ../vim/test.md:14
+msgid "bcd"
 msgstr ""
-
-#: ../database server:1
-msgid "database server"
-msgstr ""
-
-#~ msgid "test1"
-#~ msgstr ""
-
-#~ msgid "test1 title level 2 abc"
-#~ msgstr ""
-
-#~ msgid "hello"
-#~ msgstr ""
-
-#~ msgid "test1 title level 2 ef"
-#~ msgstr ""
-
-#~ msgid "bcd"
-#~ msgstr ""
 

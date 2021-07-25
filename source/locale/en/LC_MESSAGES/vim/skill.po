@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 首页 \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-02 22:24+0800\n"
+"POT-Creation-Date: 2021-07-19 20:11+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,42 +22,70 @@ msgid "skill"
 msgstr ""
 
 #: ../vim/skill.rst:8
-msgid "settings for find python error automatically"
+msgid "youcompleteme"
 msgstr ""
 
-#: ../vim/skill.rst:11
-msgid "environment settings"
+#: ../vim/skill.rst:16
+msgid "download url"
 msgstr ""
 
-#: ../vim/skill.rst:20
-msgid "custom python compiler"
+#: ../vim/skill.rst:18
+msgid "https://releases.llvm.org/download.html"
 msgstr ""
 
-#: ../vim/skill.rst:22
-msgid "python.vim path"
+#: ../vim/skill.rst:21
+msgid "lang+llvm-5.0.0-x86_64-apple-darwin.tar.xz"
 msgstr ""
 
-#: ../vim/skill.rst:24
-msgid "~/.vim/compiler/python.vim"
+#: ../vim/skill.rst:29
+msgid "config"
 msgstr ""
 
-#: ../vim/skill.rst:26
-msgid "windows python vim path"
-msgstr ""
-
-#: ../vim/skill.rst:28
-msgid "D:\\Vim\\vim82\\compiler\\python.vim"
-msgstr ""
-
-#: ../vim/skill.rst:31
-msgid "python.vim code"
-msgstr ""
-
-#: ../vim/skill.rst:57
-msgid "vimrc config"
+#: ../vim/skill.rst:65
+msgid "rstcheck ignore notice"
 msgstr ""
 
 #: ../vim/skill.rst:67
+msgid "vi ~/.rstcheck.cfg"
+msgstr ""
+
+#: ../vim/skill.rst:75
+msgid "settings for find python error automatically"
+msgstr ""
+
+#: ../vim/skill.rst:78
+msgid "environment settings"
+msgstr ""
+
+#: ../vim/skill.rst:88
+msgid "custom python compiler"
+msgstr ""
+
+#: ../vim/skill.rst:90
+msgid "python.vim path"
+msgstr ""
+
+#: ../vim/skill.rst:92
+msgid "~/.vim/compiler/python.vim"
+msgstr ""
+
+#: ../vim/skill.rst:94
+msgid "windows python vim path"
+msgstr ""
+
+#: ../vim/skill.rst:96
+msgid "D:\\\\Vim\\vim82\\\\compiler\\\\python.vim"
+msgstr ""
+
+#: ../vim/skill.rst:99
+msgid "python.vim code"
+msgstr ""
+
+#: ../vim/skill.rst:125
+msgid "vimrc config"
+msgstr ""
+
+#: ../vim/skill.rst:135
 msgid "fold keymap"
 msgstr ""
 
@@ -117,91 +145,91 @@ msgstr ""
 msgid "unfold all"
 msgstr ""
 
-#: ../vim/skill.rst:81
+#: ../vim/skill.rst:149
 msgid "打印出匹配的行"
 msgstr "print match lines"
 
-#: ../vim/skill.rst:83
+#: ../vim/skill.rst:151
 msgid ":g/sub_str/p"
 msgstr ""
 
-#: ../vim/skill.rst:87
+#: ../vim/skill.rst:155
 msgid "全局替换单词"
 msgstr "change word global"
 
-#: ../vim/skill.rst:89
+#: ../vim/skill.rst:157
 msgid "先*找到，然后::"
 msgstr "first, find *, then ::"
 
-#: ../vim/skill.rst:94
+#: ../vim/skill.rst:162
 msgid "每行自动递增序号"
 msgstr "increase number in every line automatically "
 
-#: ../vim/skill.rst:108
+#: ../vim/skill.rst:176
 msgid "插入模式删除字符、单词、行"
 msgstr "delete character, word, line in insert mode"
 
-#: ../vim/skill.rst:110
+#: ../vim/skill.rst:178
 msgid "delete letter"
 msgstr ""
 
-#: ../vim/skill.rst:112
+#: ../vim/skill.rst:180
 msgid "ctrl-h"
 msgstr ""
 
-#: ../vim/skill.rst:114
+#: ../vim/skill.rst:182
 msgid "delete word"
 msgstr ""
 
-#: ../vim/skill.rst:116
+#: ../vim/skill.rst:184
 msgid "ctrl-w"
 msgstr ""
 
-#: ../vim/skill.rst:118
+#: ../vim/skill.rst:186
 msgid "delete line"
 msgstr ""
 
-#: ../vim/skill.rst:120
+#: ../vim/skill.rst:188
 msgid "ctrl-u"
 msgstr ""
 
-#: ../vim/skill.rst:124
+#: ../vim/skill.rst:192
 msgid "插入-普通模式临时切换"
 msgstr "switch insert mode or normal mode temp"
 
-#: ../vim/skill.rst:133
+#: ../vim/skill.rst:201
 msgid "插入模式复制"
 msgstr "copy in insert mode"
 
-#: ../vim/skill.rst:141
+#: ../vim/skill.rst:209
 msgid "二合字母"
 msgstr "two-alpha letter"
 
-#: ../vim/skill.rst:147
+#: ../vim/skill.rst:215
 msgid "<ctrl-k>然后输入两个字母"
 msgstr "input two letter after <Ctrl-K>"
 
-#: ../vim/skill.rst:150
+#: ../vim/skill.rst:218
 msgid "命令模式的所有命令"
 msgstr "all commands in command mode"
 
-#: ../vim/skill.rst:158
+#: ../vim/skill.rst:226
 msgid "拼写检查"
 msgstr "spell check"
 
-#: ../vim/skill.rst:160
+#: ../vim/skill.rst:228
 msgid "set spell"
 msgstr ""
 
-#: ../vim/skill.rst:162
+#: ../vim/skill.rst:230
 msgid "set spelllang=en_us,cjk"
 msgstr ""
 
-#: ../vim/skill.rst:164
+#: ../vim/skill.rst:232
 msgid "set spellcapcheck="
 msgstr ""
 
-#: ../vim/skill.rst:166
+#: ../vim/skill.rst:234
 msgid "插入模式下，<ctrl-x>s"
 msgstr "insert mode, <Ctrl-X>s"
 
@@ -260,4 +288,7 @@ msgstr ""
 #: ../vim/skill.rst:1
 msgid "撤销zg或zw的动作"
 msgstr "undo zg or zw action"
+
+#~ msgid "D:\\Vim\\vim82\\compiler\\python.vim"
+#~ msgstr ""
 

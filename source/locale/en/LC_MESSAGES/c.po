@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 首页 \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-12 00:28+0800\n"
+"POT-Creation-Date: 2021-07-19 20:11+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -75,5 +75,9 @@ msgstr ""
 
 #: ../c.rst:43
 msgid "下标访问越界就会崩溃，根本没机会产生野指针"
+msgstr ""
+
+#: ../c.rst:47
+msgid "``Linux`` install ``git`` 向来 **仅需要一行命令** 即可搞定，因为各式各样的 **包管理器** 帮了大忙"
 msgstr ""
 

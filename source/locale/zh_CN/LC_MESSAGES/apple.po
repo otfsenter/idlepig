@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: IdlePig \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-19 20:11+0800\n"
+"POT-Creation-Date: 2021-07-25 18:30+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,65 +17,65 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.0\n"
 
-#: ../apple.rst:5
+#: ../apple.md:1
 msgid "apple"
 msgstr ""
 
-#: ../apple.rst:8
+#: ../apple.md:4
 msgid "关闭登陆界面多个用户登陆"
 msgstr ""
 
-#: ../apple.rst:11
-msgid ""
-"sudo defaults write /Library/Preferences/com.apple.loginwindow "
-"SHOWOTHERUSERS_MANAGED -bool FALSE"
-msgstr ""
-
-#: ../apple.rst:14
+#: ../apple.md:11
 msgid "强开随航"
 msgstr ""
 
-#: ../apple.rst:16
-msgid "defaults write com.apple.sidecar.display AllowAllDevices -bool true"
-msgstr ""
-
-#: ../apple.rst:18
-msgid "defaults write com.apple.sidecar.display hasShownPref -bool true"
-msgstr ""
-
-#: ../apple.rst:21
+#: ../apple.md:18
 msgid "环境变量配置"
 msgstr ""
 
-#: ../apple.rst:23
+#: ../apple.md:20
 msgid "因为terminal每次只会加载.zshrc，所以必须要在.zshrc里面写alias和环境变量，才会每次重启终端生效配置"
 msgstr ""
 
-#: ../apple.rst:28
+#: ../apple.md:22
+msgid "初始化的配置"
+msgstr ""
+
+#: ../apple.md:34
 msgid "苹果 电源适配器延长线缆"
 msgstr ""
 
-#: ../apple.rst:31
+#: ../apple.md:37
 msgid "https://www.apple.com.cn/shop/product/MK122CH/A"
 msgstr ""
 
-#: ../apple.rst:35
+#: ../apple.md:40
 msgid "调整鼠标速度"
 msgstr ""
 
-#: ../apple.rst:37
-msgid "defaults write -g com.apple.mouse.scaling 18"
-msgstr ""
-
-#: ../apple.rst:39
+#: ../apple.md:46
 msgid "terminal输入然后重启，已爽死，嫌快的调小数值就行"
 msgstr ""
 
-#: ../apple.rst:41
+#: ../apple.md:48
 msgid "还有滚轮速度"
 msgstr ""
 
-#: ../apple.rst:43
-msgid "defaults write -g com.apple.scrollwheel.scaling 1.2"
-msgstr ""
+#~ msgid ""
+#~ "sudo defaults write "
+#~ "/Library/Preferences/com.apple.loginwindow "
+#~ "SHOWOTHERUSERS_MANAGED -bool FALSE"
+#~ msgstr ""
+
+#~ msgid "defaults write com.apple.sidecar.display AllowAllDevices -bool true"
+#~ msgstr ""
+
+#~ msgid "defaults write com.apple.sidecar.display hasShownPref -bool true"
+#~ msgstr ""
+
+#~ msgid "defaults write -g com.apple.mouse.scaling 18"
+#~ msgstr ""
+
+#~ msgid "defaults write -g com.apple.scrollwheel.scaling 1.2"
+#~ msgstr ""
 

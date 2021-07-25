@@ -1,0 +1,191 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, IdlePig
+# This file is distributed under the same license as the IdlePig package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IdlePig \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-25 18:30+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../linux/nginx/cdn_aliyun.md:1
+msgid "CDN for aliyun"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md:3
+msgid "能达到的效果"
+msgstr "Result"
+
+#: ../linux/nginx/cdn_aliyun.md:5
+msgid "浏览器访问`idlepig.cn`可以重定向到`https://www.idlepig.cn/index.html`"
+msgstr "when visit `idlepig.cn`, browser can redirect to `https://www.idlepig.cn/index.html` "
+
+#: ../linux/nginx/cdn_aliyun.md:7
+msgid "即`http://idlepig.cn/`可以重定向"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md:9
+msgid "`http://www.idlepig.cn`可以重定向到`https://www.idlepig.cn`"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md:11
+msgid "这个效果是在阿里云全站加速CDN里面设置重定向"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md:13
+msgid "问题：`https://idlepig.cn`不能重定向到`https://www.idlepig.cn/index.html`"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md:16
+msgid "<s>因为只有`www.idlepig.cn`设置了CDN，而`idlepig.cn`是通过域名解析设置显性URL和@(主机记录)来实现的重定向的，所以`https://idlepig.cn`重定向暂时**没实现**</s>"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md:18
+msgid "解决方法："
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md:20
+msgid "[万网主机基础设置里面配置301](https://netcn.console.aliyun.com/core/host/list2)"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md:22
+msgid "修改`/etc/nginx/nginx.conf`文件"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md:24
+msgid "安装nginx"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md:30
+msgid "修改html文件目录权限"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md:39
+msgid "server 80"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md:42
+msgid "`user nginx;`修改成`user root;`"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md:44
+msgid "`root    /usr/share/nginx/html;`修改成`root    /root/html;`"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md:51
+msgid "修改成"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md:59
+msgid "阿里云全站动态加速"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md:61
+msgid "[地址](https://dcdn.console.aliyun.com/#/domain/list)"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md:63
+msgid "给`www.idlepig.cn`配置加速即可"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md:64
+msgid "证书在里面配置"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md:65
+msgid "重定向：http -> https"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md:66
+msgid "可以预热css、js、font、png链接"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md:68
+msgid "阿里云域名解析"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md:70
+msgid "[地址](https://dns.console.aliyun.com/#/dns/domainList)"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md
+msgid "主机记录"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md
+msgid "记录类型"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md
+msgid "解析路线(isp)"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md
+msgid "记录值"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md
+msgid "TTL"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md
+msgid "www"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md
+msgid "CNAME"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md
+msgid "默认"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md
+msgid "www.idlepig.cn.w.cdngslb.com"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md
+msgid "10 分钟"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md
+msgid "@"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md
+msgid "显性URL"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md
+msgid "https://www.idlepig.cn/index.html"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md:78
+msgid "正常重定向的流程"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md:80
+msgid "`http://idlepig.cn/` -> `https://idlepig.cn/`-> `https://www.idlepig.cn/`"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md:82
+msgid "`https://idlepig.cn/`-> `https://www.idlepig.cn/`"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md:84
+msgid "`http://www.idlepig.cn/` -> `https://www.idlepig.cn/`"
+msgstr ""
+
+#: ../linux/nginx/cdn_aliyun.md:86
+msgid "`https://www.idlepig.cn/` -> web page"
+msgstr ""
+

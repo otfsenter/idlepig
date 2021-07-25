@@ -101,9 +101,3 @@ msgstr ""
 msgid "业务服务器 - flume - 流kafka - spark - 批kafka - druid - 前端报表"
 msgstr ""
 
-#~ msgid "架构图"
-#~ msgstr ""
-
-#~ msgid "具体配置：上面描述对应的结构图"
-#~ msgstr ""
-

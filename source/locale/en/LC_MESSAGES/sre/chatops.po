@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, IdlePig
+# This file is distributed under the same license as the IdlePig package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IdlePig \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-25 18:30+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../sre/chatops.md:1
+msgid "ChatOps"
+msgstr ""
+
+#: ../sre/chatops.md:3
+msgid "install dependencies"
+msgstr ""
+
+#: ../sre/chatops.md:11
+msgid "train"
+msgstr ""
+
+#: ../sre/chatops.md:17 ../sre/chatops.md:30
+msgid "output"
+msgstr ""
+
+#: ../sre/chatops.md:24
+msgid "in project path"
+msgstr ""
+
+#: ../sre/chatops.md:36
+msgid ""
+"/Users/zhouxinzheng/Library/Python/3.8/lib/python/site-"
+"packages/rasa/utils/train_utils.py"
+msgstr ""
+
+#: ../sre/chatops.md:38
+msgid "CONSTRAIN_SIMILARITIES"
+msgstr ""
+
+#: ../sre/chatops.md:40
+msgid "constrain_similarities"
+msgstr ""
+
+#: ../sre/chatops.md:43
+msgid "警告：/var/tmp/rpm-tmp.vvKSbh: 头V4 RSA/SHA1 Signature, 密钥 ID e257814a: NOKEY"
+msgstr ""
+
+#: ../sre/chatops.md:45
+msgid "软件包 k3s-selinux-0.1.1-rc1.el7.noarch 已经安装"
+msgstr ""
+

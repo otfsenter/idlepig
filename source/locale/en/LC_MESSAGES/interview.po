@@ -17,46 +17,27 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.0\n"
 
-#: ../vim/test1.rst:5
-msgid "vim test1 rst"
+#: ../interview.rst:5
+msgid "interview"
 msgstr ""
 
-#: ../A:1
-msgid "A"
+#: ../interview.rst:9
+msgid "原理"
 msgstr ""
 
-#: ../browsers client:1 each in
-msgid "browsers in each client"
+#: ../interview.rst:12
+msgid "middleware: kafka, redis"
 msgstr ""
 
-#: ../B:1
-msgid "B"
+#: ../interview.rst:15
+msgid "database: mysql"
 msgstr ""
 
-#: ../web server:1
-msgid "web server"
+#: ../interview.rst:17
+msgid "k8s"
 msgstr ""
 
-#: ../C:1
-msgid "C"
+#: ../interview.rst:19
+msgid "think route for follow incident"
 msgstr ""
-
-#: ../database server:1
-msgid "database server"
-msgstr ""
-
-#~ msgid "test1"
-#~ msgstr ""
-
-#~ msgid "test1 title level 2 abc"
-#~ msgstr ""
-
-#~ msgid "hello"
-#~ msgstr ""
-
-#~ msgid "test1 title level 2 ef"
-#~ msgstr ""
-
-#~ msgid "bcd"
-#~ msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: IdlePig \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-19 20:11+0800\n"
+"POT-Creation-Date: 2021-07-19 20:17+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,46 +17,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.0\n"
 
-#: ../vim/test1.rst:5
-msgid "vim test1 rst"
+#: ../sphinx/vscode.md:1
+msgid "vscode"
 msgstr ""
 
-#: ../A:1
-msgid "A"
+#: ../sphinx/vscode.md:3
+msgid "start vscode on windows"
 msgstr ""
 
-#: ../browsers client:1 each in
-msgid "browsers in each client"
+#: ../sphinx/vscode.md:10
+msgid "extensions: paste images"
 msgstr ""
 
-#: ../B:1
-msgid "B"
+#: ../sphinx/vscode.md:12
+msgid "Paste Image: Path"
 msgstr ""
-
-#: ../web server:1
-msgid "web server"
-msgstr ""
-
-#: ../C:1
-msgid "C"
-msgstr ""
-
-#: ../database server:1
-msgid "database server"
-msgstr ""
-
-#~ msgid "test1"
-#~ msgstr ""
-
-#~ msgid "test1 title level 2 abc"
-#~ msgstr ""
-
-#~ msgid "hello"
-#~ msgstr ""
-
-#~ msgid "test1 title level 2 ef"
-#~ msgstr ""
-
-#~ msgid "bcd"
-#~ msgstr ""
 
