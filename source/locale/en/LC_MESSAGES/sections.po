@@ -19,5 +19,5 @@ msgstr ""
 
 #: ../sections.rst:5
 msgid "微信订阅号"
-msgstr "Wechat Offical Account"
+msgstr "Wechat Official Account"
 

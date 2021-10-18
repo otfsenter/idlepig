@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../index.rst:29
 msgid "微信订阅号"
-msgstr "Wechat Offical Account"
+msgstr "Wechat Official Account"
 
 #: ../index.rst:23
 msgid "Python、Linux运维、自动化"
