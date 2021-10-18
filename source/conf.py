@@ -31,8 +31,6 @@ author = "idlepig"
 # ones.
 extensions = [
     "sphinx.ext.autodoc",
-    # "m2r2",
-    # "sphinxcontrib.blockdiag",
     "myst_parser",
 ]
 
