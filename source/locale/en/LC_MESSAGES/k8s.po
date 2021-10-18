@@ -1,0 +1,383 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, IdlePig
+# This file is distributed under the same license as the IdlePig package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IdlePig \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-19 01:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../k8s.md:2
+msgid "k8s"
+msgstr ""
+
+#: ../k8s.md:5
+msgid "tutorial address: 1:34:19"
+msgstr ""
+
+#: ../k8s.md:7
+msgid "https://www.youtube.com/watch?v=X48VuDVv0do&t=6211s"
+msgstr ""
+
+#: ../k8s.md:10
+msgid "insall minikube"
+msgstr ""
+
+#: ../k8s.md:30
+msgid "create deployment"
+msgstr ""
+
+#: ../k8s.md:51
+msgid "create deployment from yaml file"
+msgstr ""
+
+#: ../k8s.md:57
+msgid "nginx-deployment.yaml"
+msgstr ""
+
+#: ../k8s.md:84
+msgid "nginx-service.yaml"
+msgstr ""
+
+#: ../k8s.md:100
+msgid "get service status"
+msgstr ""
+
+#: ../k8s.md:107
+msgid "get ip"
+msgstr ""
+
+#: ../k8s.md:113
+msgid "get actual nginx-deployment yaml file"
+msgstr ""
+
+#: ../k8s.md:119
+msgid "delete deployment and service after test"
+msgstr ""
+
+#: ../k8s.md:127
+msgid "阿里云镜像源安装K8S"
+msgstr ""
+
+#: ../k8s.md:129
+msgid "https://zhuanlan.zhihu.com/p/59048502"
+msgstr ""
+
+#: ../k8s.md:132
+msgid "从零开始部署k8s"
+msgstr ""
+
+#: ../k8s.md:134
+msgid "https://www.vickey-wu.com/posts/deploy-k8s-by-kubeadm/"
+msgstr ""
+
+#: ../k8s.md:136
+msgid "课程"
+msgstr ""
+
+#: ../k8s.md:138
+msgid "有道分享链接"
+msgstr ""
+
+#: ../k8s.md:140
+msgid "文档：深入剖析k8s"
+msgstr ""
+
+#: ../k8s.md:142
+msgid "http://note.youdao.com/noteshare?id=c562c06a0cc20e09fd07faf1978d4f9d"
+msgstr ""
+
+#: ../k8s.md:144
+msgid "课前必读 (5讲)"
+msgstr ""
+
+#: ../k8s.md:146
+msgid "开篇词 | 打通“容器技术”的任督二脉免费"
+msgstr ""
+
+#: ../k8s.md:148
+msgid "01 | 预习篇 · 小鲸鱼大事记（一）：初出茅庐"
+msgstr ""
+
+#: ../k8s.md:150
+msgid "02 | 预习篇 · 小鲸鱼大事记（二）：崭露头角"
+msgstr ""
+
+#: ../k8s.md:152
+msgid "03 | 预习篇 · 小鲸鱼大事记（三）：群雄并起"
+msgstr ""
+
+#: ../k8s.md:154
+msgid "04 | 预习篇 · 小鲸鱼大事记（四）：尘埃落定"
+msgstr ""
+
+#: ../k8s.md:156
+msgid "容器技术概念入门篇 (5讲)"
+msgstr ""
+
+#: ../k8s.md:158
+msgid "05 | 白话容器基础（一）：从进程说开去"
+msgstr ""
+
+#: ../k8s.md:160
+msgid "06 | 白话容器基础（二）：隔离与限制"
+msgstr ""
+
+#: ../k8s.md:162
+msgid "07 | 白话容器基础（三）：深入理解容器镜像"
+msgstr ""
+
+#: ../k8s.md:164
+msgid "08 | 白话容器基础（四）：重新认识Docker容器"
+msgstr ""
+
+#: ../k8s.md:166
+msgid "09 | 从容器到容器云：谈谈Kubernetes的本质"
+msgstr ""
+
+#: ../k8s.md:168
+msgid "Kubernetes集群搭建与实践 (3讲)"
+msgstr ""
+
+#: ../k8s.md:170
+msgid "10 | Kubernetes一键部署利器：kubeadm"
+msgstr ""
+
+#: ../k8s.md:172
+msgid "11 | 从0到1：搭建一个完整的Kubernetes集群"
+msgstr ""
+
+#: ../k8s.md:174
+msgid "12 | 牛刀小试：我的第一个容器化应用"
+msgstr ""
+
+#: ../k8s.md:176
+msgid "容器编排与Kubernetes作业管理 (15讲)"
+msgstr ""
+
+#: ../k8s.md:178
+msgid "13 | 为什么我们需要Pod"
+msgstr ""
+
+#: ../k8s.md:180
+msgid "14 | 深入解析Pod对象（一）：基本概"
+msgstr ""
+
+#: ../k8s.md:182
+msgid "15 | 深入解析Pod对象（二）：使用进"
+msgstr ""
+
+#: ../k8s.md:184
+msgid "16 | 编排其实很简单：谈谈“控制器”模"
+msgstr ""
+
+#: ../k8s.md:186
+msgid "17 | 经典PaaS的记忆：作业副本与水平扩"
+msgstr ""
+
+#: ../k8s.md:188
+msgid "18 | 深入理解StatefulSet（一）：拓扑状"
+msgstr ""
+
+#: ../k8s.md:190
+msgid "19 | 深入理解StatefulSet（二）：存储状"
+msgstr ""
+
+#: ../k8s.md:192
+msgid "20 | 深入理解StatefulSet（三）：有状态应用实"
+msgstr ""
+
+#: ../k8s.md:194
+msgid "21 | 容器化守护进程的意义：DaemonSe"
+msgstr ""
+
+#: ../k8s.md:196
+msgid "22 | 撬动离线业务：Job与CronJo"
+msgstr ""
+
+#: ../k8s.md:198
+msgid "23 | 声明式API与Kubernetes编程范"
+msgstr ""
+
+#: ../k8s.md:200
+msgid "24 | 深入解析声明式API（一）：API对象的奥"
+msgstr ""
+
+#: ../k8s.md:202
+msgid "25 | 深入解析声明式API（二）：编写自定义控制"
+msgstr ""
+
+#: ../k8s.md:204
+msgid "26 | 基于角色的权限控制：RBA"
+msgstr ""
+
+#: ../k8s.md:206
+msgid "27 | 聪明的微创新：Operator工作原理解"
+msgstr ""
+
+#: ../k8s.md:208
+msgid "Kubernetes容器持久化存储 (4讲)"
+msgstr ""
+
+#: ../k8s.md:210
+msgid "28 | PV、PVC、StorageClass，这些到底在说啥"
+msgstr ""
+
+#: ../k8s.md:212
+msgid "29 | PV、PVC体系是不是多此一举？从本地持久化卷谈"
+msgstr ""
+
+#: ../k8s.md:214
+msgid "30 | 编写自己的存储插件：FlexVolume与CS"
+msgstr ""
+
+#: ../k8s.md:216
+msgid "31 | 容器存储实践：CSI插件编写指"
+msgstr ""
+
+#: ../k8s.md:218
+msgid "Kubernetes容器网络 (8讲)"
+msgstr ""
+
+#: ../k8s.md:220
+msgid "32 | 浅谈容器网络"
+msgstr ""
+
+#: ../k8s.md:222
+msgid "33 | 深入解析容器跨主机网络"
+msgstr ""
+
+#: ../k8s.md:224
+msgid "34 | Kubernetes网络模型与CNI网络插件"
+msgstr ""
+
+#: ../k8s.md:226
+msgid "35 | 解读Kubernetes三层网络方案"
+msgstr ""
+
+#: ../k8s.md:228
+msgid "36 | 为什么说Kubernetes只有soft multi-tenancy？"
+msgstr ""
+
+#: ../k8s.md:230
+msgid "37 | 找到容器不容易：Service、DNS与服务发现"
+msgstr ""
+
+#: ../k8s.md:232
+msgid "38 | 从外界连通Service与Service调试“三板斧”"
+msgstr ""
+
+#: ../k8s.md:234
+msgid "39 | 谈谈Service与Ingress"
+msgstr ""
+
+#: ../k8s.md:236
+msgid "Kubernetes作业调度与资源管理 (5讲)"
+msgstr ""
+
+#: ../k8s.md:238
+msgid "40 | Kubernetes的资源模型与资源管理"
+msgstr ""
+
+#: ../k8s.md:240
+msgid "41 | 十字路口上的Kubernetes默认调度器"
+msgstr ""
+
+#: ../k8s.md:242
+msgid "42 | Kubernetes默认调度器调度策略解析"
+msgstr ""
+
+#: ../k8s.md:244
+msgid "43 | Kubernetes默认调度器的优先级与抢占机制"
+msgstr ""
+
+#: ../k8s.md:246
+msgid "44 | Kubernetes GPU管理与Device Plugin机制"
+msgstr ""
+
+#: ../k8s.md:248
+msgid "Kubernetes容器运行时 (3讲)"
+msgstr ""
+
+#: ../k8s.md:250
+msgid "45 | 幕后英雄：SIG-Node与CRI"
+msgstr ""
+
+#: ../k8s.md:252
+msgid "46 | 解读 CRI 与 容器运行时"
+msgstr ""
+
+#: ../k8s.md:254
+msgid "47 | 绝不仅仅是安全：Kata Containers 与 gVisor"
+msgstr ""
+
+#: ../k8s.md:256
+msgid "Kubernetes容器监控与日志 (3讲)"
+msgstr ""
+
+#: ../k8s.md:258
+msgid "48 | Prometheus、Metrics Server与Kubernetes监控体系"
+msgstr ""
+
+#: ../k8s.md:260
+msgid "49 | Custom Metrics: 让Auto Scaling不再“食之无味”"
+msgstr ""
+
+#: ../k8s.md:262
+msgid "50 | 让日志无处可逃：容器日志收集与管理"
+msgstr ""
+
+#: ../k8s.md:264
+msgid "再谈开源与社区 (1讲)"
+msgstr ""
+
+#: ../k8s.md:266
+msgid "51 | 谈谈Kubernetes开源社区和未来走向"
+msgstr ""
+
+#: ../k8s.md:268
+msgid "答疑文章 (1讲)"
+msgstr ""
+
+#: ../k8s.md:270
+msgid "52 | 答疑：在问题中解决问题，在思考中产生思考"
+msgstr ""
+
+#: ../k8s.md:272
+msgid "特别放送 (2讲)"
+msgstr ""
+
+#: ../k8s.md:274
+msgid "特别放送 | 2019 年，容器技术生态会发生些什么？"
+msgstr ""
+
+#: ../k8s.md:276
+msgid "特别放送 | 基于 Kubernetes 的云原生应用管理，到底应该怎么做？"
+msgstr ""
+
+#: ../k8s.md:278
+msgid "结束语 (1讲)"
+msgstr ""
+
+#: ../k8s.md:280
+msgid "结束语 | Kubernetes：赢开发者赢天下"
+msgstr ""
+
+#: ../k8s.md:282
+msgid "结课测试 (1讲)"
+msgstr ""
+
+#: ../k8s.md:284
+msgid "结课测试｜这些Kubernetes的相关知识，你都掌握了吗？"
+msgstr ""
+

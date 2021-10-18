@@ -18,9 +18,8 @@ import os
 
 # -- Project information -----------------------------------------------------
 
-# project = 'IdlePig · 公众号：Python脚本'
-project = "IdlePig"
-copyright = "2021, IdlePig"
+project = "idlepig"
+copyright = "2021, idlepig"
 author = "idlepig"
 
 
@@ -33,7 +32,6 @@ extensions = [
     "sphinx.ext.autodoc",
     "myst_parser",
 ]
-
 
 # source_suffix = ['.rst', '.md']
 source_suffix = [".rst"]

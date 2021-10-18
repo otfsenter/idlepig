@@ -1,0 +1,179 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, IdlePig
+# This file is distributed under the same license as the IdlePig package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IdlePig \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-19 01:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../sphinx/readthedocs.md:1
+msgid "readthedocs"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:4
+msgid "设置英文"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:7
+msgid "先手动导入英文版本"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:9
+msgid "生成英文版本的网页"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:16
+msgid "项目名称：idlepig"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:18
+msgid "语言：英语"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:20 ../sphinx/readthedocs.md:71
+msgid "branch：main"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:22 ../sphinx/readthedocs.md:79
+msgid "详细设置"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:24 ../sphinx/readthedocs.md:81
+msgid "Settings"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:26
+msgid "Name: idlepig-en"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:28
+msgid "Repository URL: https://github.com/otfsenter/idlepig.git"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:30
+msgid "Repository type: Git"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:32
+msgid "Description: the blog of IdlePig"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:34
+msgid "Language: English"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:36
+msgid "Programming Language: Only Words"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:38
+msgid "Tags: python, scripts"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:40 ../sphinx/readthedocs.md:87
+msgid "Advanced Settings"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:42
+msgid "Default version*: latest"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:44
+msgid "Default branch: main"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:46
+msgid "Analytics code: (apply from google ads)"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:48
+msgid "Documentation type*: Sphinx Html"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:50
+msgid "Python Interpreter*: Cpython 3.x"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:52
+msgid "Integrations"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:54
+msgid "add by readthedocs automatically"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:56
+msgid "Translations"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:58
+msgid "idlepig-en(English)"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:65
+msgid "设置中文(只记录不同的地方)"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:67
+msgid "项目名称：idlepig_zh-CN"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:69
+msgid "语言：简体中文"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:73
+msgid "生成中文版本的网页"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:83
+msgid "Language: Simplified Chinese"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:89
+msgid "Install Project"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:91
+msgid "Python configuration file: source/conf.py"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:93
+msgid "Enable PDF build: yes"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:95
+msgid "Enable EPUB build: yes"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:99
+msgid "step 3"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:101
+msgid "然后两个一起build"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:103
+msgid "分别看一下两个文档是否正常"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:105
+msgid "然后在英文文档项目里面设置翻译项：选择简体中文的版本"
+msgstr ""
+
+#: ../sphinx/readthedocs.md:107
+msgid "**这样最后只能在中文文档里面看到翻译选项，英文的看不到**"
+msgstr ""
+

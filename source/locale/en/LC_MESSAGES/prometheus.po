@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, IdlePig
+# This file is distributed under the same license as the IdlePig package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IdlePig \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-19 01:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../prometheus.md:1
+msgid "prometheus"
+msgstr ""
+
+#: ../prometheus.md:3
+msgid "没有看的文章"
+msgstr "article do not have read"
+
+#: ../prometheus.md:5
+msgid "https://www.cnblogs.com/jiujuan/p/13262380.html"
+msgstr ""
+
+#: ../prometheus.md:7
+msgid "install"
+msgstr ""
+
+#: ../prometheus.md:9
+msgid "download"
+msgstr ""
+
+#: ../prometheus.md:11
+msgid "https://github.com/prometheus/prometheus/tags"
+msgstr ""
+
+#: ../prometheus.md:19
+msgid "配置systemd管理"
+msgstr "configure systemd"
+
+#: ../prometheus.md:35
+msgid "服务管理"
+msgstr "service management"
+
+#: ../prometheus.md:43
+msgid "visit website"
+msgstr ""
+
+#: ../prometheus.md:45
+msgid "http://ip:9090"
+msgstr ""
+

@@ -8,28 +8,76 @@ msgid ""
 msgstr ""
 "Project-Id-Version: IdlePig \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-19 20:17+0800\n"
+"POT-Creation-Date: 2021-10-19 01:05+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../sphinx/vscode.md:1
 msgid "vscode"
 msgstr ""
 
 #: ../sphinx/vscode.md:3
+msgid "How do I press and hold a key and have it repeat in VSCode?"
+msgstr ""
+
+#: ../sphinx/vscode.md:5
+msgid ""
+"To disable the Apple press and hold for VSCode only, run this command in "
+"a terminal:"
+msgstr ""
+
+#: ../sphinx/vscode.md:11
+msgid "Then restart VSCode."
+msgstr ""
+
+#: ../sphinx/vscode.md:13
+msgid "To re-enable, run this command in a terminal:"
+msgstr ""
+
+#: ../sphinx/vscode.md:19
 msgid "start vscode on windows"
 msgstr ""
 
-#: ../sphinx/vscode.md:10
+#: ../sphinx/vscode.md:26
 msgid "extensions: paste images"
 msgstr ""
 
-#: ../sphinx/vscode.md:12
+#: ../sphinx/vscode.md:28
 msgid "Paste Image: Path"
+msgstr ""
+
+#: ../sphinx/vscode.md:34
+msgid "prince xml font settings"
+msgstr ""
+
+#: ../sphinx/vscode.md:36
+msgid "reference url"
+msgstr ""
+
+#: ../sphinx/vscode.md:38
+msgid ""
+"https://github.com/shd101wyy/markdown-preview-enhanced/blob/master/docs"
+"/customize-css.md"
+msgstr ""
+
+#: ../sphinx/vscode.md:40
+msgid ""
+"To customize css for your markdown file, `cmd-shift-p` then run `Markdown"
+" Preview Enhanced: Customize Css` command."
+msgstr ""
+
+#: ../sphinx/vscode.md:42
+msgid ""
+"The style.less file will open, and you can override existing style like "
+"this:"
+msgstr ""
+
+#: ../sphinx/vscode.md:44
+msgid "`style.less` file is located at `~/.mume/style.less`"
 msgstr ""
 

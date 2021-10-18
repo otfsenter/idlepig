@@ -8,58 +8,82 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 首页 \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-25 18:30+0800\n"
+"POT-Creation-Date: 2021-10-19 01:05+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../apple.md:1
 msgid "apple"
 msgstr ""
 
 #: ../apple.md:4
+msgid "更换brew镜像"
+msgstr ""
+
+#: ../apple.md:6
+msgid "科大真香实例："
+msgstr ""
+
+#: ../apple.md:28
+msgid "如果需要恢复原有镜像源的话（国内镜像源突然不能用了或版本不够新）"
+msgstr ""
+
+#: ../apple.md:42
+msgid "如果不行的话可以依次尝试以下命令"
+msgstr ""
+
+#: ../apple.md:51
+msgid "Hide your computer name in ZSH/BASH"
+msgstr ""
+
+#: ../apple.md:53
+msgid "vim .zshrc"
+msgstr ""
+
+#: ../apple.md:59
 msgid "关闭登陆界面多个用户登陆"
 msgstr "don't allow multiple user login"
 
-#: ../apple.md:11
+#: ../apple.md:66
 msgid "强开随航"
 msgstr "display content in another screen by force"
 
-#: ../apple.md:18
+#: ../apple.md:73
 msgid "环境变量配置"
 msgstr "config environment"
 
-#: ../apple.md:20
+#: ../apple.md:75
 msgid "因为terminal每次只会加载.zshrc，所以必须要在.zshrc里面写alias和环境变量，才会每次重启终端生效配置"
 msgstr ""
 "we need use alias and environment in ~/.zshrc which will be sourced every"
 " terminal restart, because terminal only load ~/.zshrc"
 
-#: ../apple.md:22
+#: ../apple.md:77
 msgid "初始化的配置"
 msgstr ""
 
-#: ../apple.md:34
+#: ../apple.md:89
 msgid "苹果 电源适配器延长线缆"
 msgstr "apple, power extend line "
 
-#: ../apple.md:37
+#: ../apple.md:92
 msgid "https://www.apple.com.cn/shop/product/MK122CH/A"
 msgstr ""
 
-#: ../apple.md:40
+#: ../apple.md:95
 msgid "调整鼠标速度"
 msgstr "up or down mouse speed"
 
-#: ../apple.md:46
+#: ../apple.md:101
 msgid "terminal输入然后重启，已爽死，嫌快的调小数值就行"
 msgstr "it very happy which input in terminal and restart, you can decrease value "
 
-#: ../apple.md:48
+#: ../apple.md:103
 msgid "还有滚轮速度"
 msgstr "also mouse wheel speed"
 

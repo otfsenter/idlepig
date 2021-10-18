@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, IdlePig
+# This file is distributed under the same license as the IdlePig package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IdlePig \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-19 01:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../mp_wechat.md:2
+msgid "media platform for wechat"
+msgstr ""
+
+#: ../mp_wechat.md:5
+msgid "re.split"
+msgstr ""
+
+#: ../mp_wechat.md:8
+msgid "目的"
+msgstr "Purpose"
+
+#: ../mp_wechat.md:10
+msgid "对 line 字符串进行分割，取出每个单词"
+msgstr "get each word by split line string"
+
+#: ../mp_wechat.md:12
+msgid "预计的结果如下:"
+msgstr "result: "
+
+#: ../mp_wechat.md:20
+msgid "参数说明"
+msgstr "parameter"
+
+#: ../mp_wechat.md:22
+msgid "`re.split()` 函数一般需要接收两个参数，"
+msgstr "`re.split()` get two parameters, "
+
+#: ../mp_wechat.md:24
+msgid "第一个参数：正则表达式"
+msgstr "first parameter: regular expression pattern"
+
+#: ../mp_wechat.md:26
+msgid "第二个参数：字符串"
+msgstr "second parameter: string"
+
+#: ../mp_wechat.md:28
+msgid "方括号"
+msgstr "square bracket"
+
+#: ../mp_wechat.md:38 ../mp_wechat.md:59 ../mp_wechat.md:79 ../mp_wechat.md:100
+msgid "result"
+msgstr ""
+
+#: ../mp_wechat.md:45
+msgid "第一个参数：`r'[\\\\s!]'`"
+msgstr "first parameter: `r'[\\\\s!]'`"
+
+#: ../mp_wechat.md:47
+msgid "在正则表达式中，会匹配方括号中任意一个字符，缺点是不能 以多个字符 为一个单元 作为分隔符，并且是或的关系"
+msgstr "match any letter in pattern"
+
+#: ../mp_wechat.md:49
+msgid "结果中也有一个空字符串"
+msgstr "there is a space in result"
+
+#: ../mp_wechat.md:52
+msgid "圆括号"
+msgstr "parentheses"
+
+#: ../mp_wechat.md:65
+msgid "圆括号可以 用多个字符作为一个分隔符，并且匹配任意一个，"
+msgstr ""
+
+#: ../mp_wechat.md:67
+msgid "在这里面，就是匹配 !\\s 或 \\\\s 其中任意一个"
+msgstr ""
+
+#: ../mp_wechat.md:69
+msgid "但是会输出分隔符本身"
+msgstr ""
+
+#: ../mp_wechat.md:72
+msgid "非捕获组"
+msgstr ""
+
+#: ../mp_wechat.md:85
+msgid "这个时候就可以用正则表达式里面的 非捕获组（会把匹配上的字符忽略掉），"
+msgstr ""
+
+#: ../mp_wechat.md:87
+msgid "具体的表现形式是在 圆括号 里面的 最前面 加上 ``?:``"
+msgstr ""
+
+#: ../mp_wechat.md:89
+msgid "这样结果就会去掉分隔符"
+msgstr ""
+
+#: ../mp_wechat.md:91
+msgid "达到我们的目的"
+msgstr ""
+
+#: ../mp_wechat.md:93
+msgid "当然，方法不止一种"
+msgstr ""
+
+#: ../mp_wechat.md:107
+msgid "直接用 | 分割 字符串 ，放入 !\\s 和 \\\\s 也能达到效果"
+msgstr ""
+
+#: ../mp_wechat.md:109
+msgid "灵活的运用正则表达式，就能对字符串做出各种处理。"
+msgstr ""
+

@@ -1,4 +1,4 @@
-# IdlePig
+# idlepig
 
-This is a blog for IdlePig
+This is a blog for idlepig
 

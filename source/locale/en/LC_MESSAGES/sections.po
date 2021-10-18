@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2021, IdlePig
-# This file is distributed under the same license as the 首页 package.
+# This file is distributed under the same license as the IdlePig package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: 首页 \n"
+"Project-Id-Version: IdlePig \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-19 01:05+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -17,11 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../index.rst:29
+#: ../sections.rst:5
 msgid "微信订阅号"
 msgstr "Wechat Offical Account"
-
-#: ../index.rst:23
-msgid "Python、Linux运维、自动化"
-msgstr "Python, Linux operations, automation"
 

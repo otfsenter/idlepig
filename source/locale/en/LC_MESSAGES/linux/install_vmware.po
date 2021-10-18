@@ -1,0 +1,127 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, IdlePig
+# This file is distributed under the same license as the IdlePig package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IdlePig \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-19 01:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../linux/install_vmware.md:1
+msgid "install centos in vmware"
+msgstr ""
+
+#: ../linux/install_vmware.md:3
+msgid "官方安装vmware，"
+msgstr ""
+
+#: ../linux/install_vmware.md:5
+msgid "下载centos的iso文件"
+msgstr ""
+
+#: ../linux/install_vmware.md:7
+msgid "选择自定义安装"
+msgstr ""
+
+#: ../linux/install_vmware.md:9
+msgid "选择固件类型"
+msgstr ""
+
+#: ../linux/install_vmware.md:11
+msgid "传统BIOS"
+msgstr ""
+
+#: ../linux/install_vmware.md:14
+msgid "进入自定义设置"
+msgstr ""
+
+#: ../linux/install_vmware.md:16
+msgid "处理器和内存"
+msgstr ""
+
+#: ../linux/install_vmware.md:18
+msgid "硬盘"
+msgstr ""
+
+#: ../linux/install_vmware.md:20
+msgid "启动虚拟机"
+msgstr ""
+
+#: ../linux/install_vmware.md:23
+msgid "如果有权限提示，记得打开权限允许，否则可能会报错"
+msgstr ""
+
+#: ../linux/install_vmware.md:25
+msgid "macos"
+msgstr ""
+
+#: ../linux/install_vmware.md:27
+msgid "系统设置 -> 安全与隐私 -> 通用 -> 把vmware的设置放开"
+msgstr ""
+
+#: ../linux/install_vmware.md:29
+msgid "选择预安装的软件"
+msgstr ""
+
+#: ../linux/install_vmware.md:31
+msgid "软件安装：选择最小化，把需要的东西安装即可"
+msgstr ""
+
+#: ../linux/install_vmware.md:33
+msgid "安装位置：自动选择"
+msgstr ""
+
+#: ../linux/install_vmware.md:35
+msgid "设置root密码"
+msgstr ""
+
+#: ../linux/install_vmware.md:37
+msgid "开始安装"
+msgstr ""
+
+#: ../linux/install_vmware.md:39
+msgid "网络配置"
+msgstr ""
+
+#: ../linux/install_vmware.md:41
+msgid "vmware fusion 虚拟机 网络适配器 桥接模式 选择网线或者wifi"
+msgstr ""
+
+#: ../linux/install_vmware.md:43
+msgid "选择完之后，重启虚拟机，然后运行"
+msgstr ""
+
+#: ../linux/install_vmware.md:45
+msgid "dhclient"
+msgstr ""
+
+#: ../linux/install_vmware.md:47
+msgid "来分配一个可用的IP"
+msgstr ""
+
+#: ../linux/install_vmware.md:49
+msgid "接下来需要把IP固定下来"
+msgstr ""
+
+#: ../linux/install_vmware.md:64
+msgid "编辑完成，重启网络设置即可"
+msgstr ""
+
+#: ../linux/install_vmware.md:66
+msgid "centos 7"
+msgstr ""
+
+#: ../linux/install_vmware.md:73
+msgid "centos 8"
+msgstr ""
+
