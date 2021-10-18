@@ -1,19 +1,147 @@
-.. _k8s_course:
 
-课程目录
-======================
+# k8s
 
-有道分享链接
-----------------
+
+## tutorial address: 1:34:19
+
+https://www.youtube.com/watch?v=X48VuDVv0do&t=6211s
+
+
+## insall minikube
+
+```bash
+brew update
+brew install hyperkit
+brew install minikube
+
+brew install docker-machine-driver-hyperkit
+sudo chown root:wheel /usr/local/opt/docker-machine-driver-hyperkit/bin/docker-machine-driver-hyperkit
+sudo chmod u+s /usr/local/opt/docker-machine-driver-hyperkit/bin/docker-machine-driver-hyperkit
+
+minikube start --vm-driver=hyperkit
+
+minikube status
+kubectl version
+kubectl get nodes
+kubectl get pod
+kubectl get service
+```
+
+## create deployment
+
+```bash
+kubectl create deployment -h
+kubectl create deployment nginx-deploy --image=nginx
+kubectl get deployment
+kubectl get replicaset
+kubectl get node
+
+kubectl edit deployment nginx-deploy
+
+kubectl create deployment mongo-depl --image=mongo
+kubectl describe pod mongo-depl-5fd6b7d4b4-8qxpz
+kubectl logs mongo-depl-5fd6b7d4b4-8qxpz
+kubectl exec -it mongo-depl-5fd6b7d4b4-8qxpz -- bin/bash
+
+kubectl delete deployment nginx-deploy
+kubectl delete deployment mongo-depl
+```
+
+
+## create deployment from yaml file
+
+```bash
+kubectl apply -f nginx-deployment.yaml
+```
+
+nginx-deployment.yaml
+
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  labels:
+    app: nginx
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:1.16
+        ports:
+        - containerPort: 8080
+```
+
+
+nginx-service.yaml
+
+```yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-service
+spec:
+  selector:
+    app: nginx
+  ports:
+    - protocal: TCP
+      port: 80
+      targetPort: 8080
+```
+
+get service status
+
+```bash
+kubectl get service
+kubectl describe service nginx-service
+```
+
+get ip
+
+```bash
+kubectl get pod -o wide
+```
+
+get actual nginx-deployment yaml file
+
+```bash
+kubectl get deployment nginx-deployment -o yaml
+```
+
+delete deployment and service after test
+
+```bash
+kubectl delete -f nginx-deployment.yaml 
+kubectl delete -f nginx-service.yaml 
+```
+
+
+## 阿里云镜像源安装K8S
+
+https://zhuanlan.zhihu.com/p/59048502
+
+
+## 从零开始部署k8s
+
+https://www.vickey-wu.com/posts/deploy-k8s-by-kubeadm/
+
+## 课程
+
+### 有道分享链接
 
 文档：深入剖析k8s
 
-链接：
-
 http://note.youdao.com/noteshare?id=c562c06a0cc20e09fd07faf1978d4f9d
 
-课前必读 (5讲)
---------------------------------------------------------------
+* 课前必读 (5讲)
 
 开篇词 | 打通“容器技术”的任督二脉免费
 
@@ -25,8 +153,7 @@ http://note.youdao.com/noteshare?id=c562c06a0cc20e09fd07faf1978d4f9d
 
 04 | 预习篇 · 小鲸鱼大事记（四）：尘埃落定
  
-容器技术概念入门篇 (5讲)
---------------------------------------------------------------
+* 容器技术概念入门篇 (5讲)
 
 05 | 白话容器基础（一）：从进程说开去
 
@@ -38,8 +165,7 @@ http://note.youdao.com/noteshare?id=c562c06a0cc20e09fd07faf1978d4f9d
 
 09 | 从容器到容器云：谈谈Kubernetes的本质
 
-Kubernetes集群搭建与实践 (3讲)
---------------------------------------------------------------
+* Kubernetes集群搭建与实践 (3讲)
 
 10 | Kubernetes一键部署利器：kubeadm
 
@@ -47,8 +173,7 @@ Kubernetes集群搭建与实践 (3讲)
 
 12 | 牛刀小试：我的第一个容器化应用
 
-容器编排与Kubernetes作业管理 (15讲)
---------------------------------------------------------------
+* 容器编排与Kubernetes作业管理 (15讲)
 
 13 | 为什么我们需要Pod
 
@@ -80,8 +205,7 @@ Kubernetes集群搭建与实践 (3讲)
 
 27 | 聪明的微创新：Operator工作原理解
 
-Kubernetes容器持久化存储 (4讲)
---------------------------------------------------------------
+* Kubernetes容器持久化存储 (4讲)
 
 28 | PV、PVC、StorageClass，这些到底在说啥
 
@@ -91,8 +215,7 @@ Kubernetes容器持久化存储 (4讲)
 
 31 | 容器存储实践：CSI插件编写指
 
-Kubernetes容器网络 (8讲)
---------------------------------------------------------------
+* Kubernetes容器网络 (8讲)
 
 32 | 浅谈容器网络
 
@@ -110,8 +233,7 @@ Kubernetes容器网络 (8讲)
 
 39 | 谈谈Service与Ingress
 
-Kubernetes作业调度与资源管理 (5讲)
---------------------------------------------------------------
+* Kubernetes作业调度与资源管理 (5讲)
 
 40 | Kubernetes的资源模型与资源管理
 
@@ -123,8 +245,7 @@ Kubernetes作业调度与资源管理 (5讲)
 
 44 | Kubernetes GPU管理与Device Plugin机制
 
-Kubernetes容器运行时 (3讲)
---------------------------------------------------------------
+* Kubernetes容器运行时 (3讲)
 
 45 | 幕后英雄：SIG-Node与CRI
 
@@ -132,8 +253,7 @@ Kubernetes容器运行时 (3讲)
 
 47 | 绝不仅仅是安全：Kata Containers 与 gVisor
 
-Kubernetes容器监控与日志 (3讲)
---------------------------------------------------------------
+* Kubernetes容器监控与日志 (3讲)
 
 48 | Prometheus、Metrics Server与Kubernetes监控体系
 
@@ -141,30 +261,24 @@ Kubernetes容器监控与日志 (3讲)
 
 50 | 让日志无处可逃：容器日志收集与管理
 
-再谈开源与社区 (1讲)
---------------------------------------------------------------
+* 再谈开源与社区 (1讲)
 
 51 | 谈谈Kubernetes开源社区和未来走向
 
-答疑文章 (1讲)
---------------------------------------------------------------
+* 答疑文章 (1讲)
 
 52 | 答疑：在问题中解决问题，在思考中产生思考
 
-特别放送 (2讲)
---------------------------------------------------------------
+* 特别放送 (2讲)
 
 特别放送 | 2019 年，容器技术生态会发生些什么？
 
 特别放送 | 基于 Kubernetes 的云原生应用管理，到底应该怎么做？
 
-结束语 (1讲)
---------------------------------------------------------------
+* 结束语 (1讲)
 
 结束语 | Kubernetes：赢开发者赢天下
 
-结课测试 (1讲)
---------------------------------------------------------------
+* 结课测试 (1讲)
 
 结课测试｜这些Kubernetes的相关知识，你都掌握了吗？
-
