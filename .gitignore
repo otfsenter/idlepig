@@ -17,3 +17,4 @@ source/t.html
 __pycache__
 source/locale/.doctrees
 **/*.DS_Store
+source/t.py
