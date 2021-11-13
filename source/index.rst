@@ -54,6 +54,7 @@ Python、Linux运维、自动化
     zabbix
     mysql
     mp_wechat/index
+    java
 
 
 
