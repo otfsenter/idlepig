@@ -55,6 +55,7 @@ Python、Linux运维、自动化
     mysql
     mp_wechat/index
     java
+    git
 
 
 
