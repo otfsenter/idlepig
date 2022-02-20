@@ -1,5 +1,16 @@
 # vscode
 
+## typing check
+
+Python › Analysis: Type Checking Mode: basic
+
+
+## Import "pytest" could not be resolved Pylancereport MissingImports
+
+python.analysis.logLevel: Trace
+
+
+
 ## Run custom commands as run configurations in Visual Studio Code
 
 cmd+shift+p
@@ -75,7 +86,7 @@ The style.less file will open, and you can override existing style like this:
 
 .markdown-preview.markdown-preview {
 
-  // custom prince pdf export style
+
   &.prince {
     font-family: "Times New Roman", "PingFang SC";
   }

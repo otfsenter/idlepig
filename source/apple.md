@@ -1,5 +1,46 @@
 # apple
 
+```
+  ____  _             _     ___              
+ / ___|| |__    __ _ | |_  / _ \  _ __   ___ 
+| |    | '_ \  / _` || __|| | | || '_ \ / __|
+| |___ | | | || (_| || |_ | |_| || |_) |\__ \
+ \____||_| |_| \__,_| \__| \___/ | .__/ |___/
+                                 |_|         
+```
+
+
+
+## ss-local
+
+To restart shadowsocks-libev after an upgrade:
+  brew services restart shadowsocks-libev
+Or, if you don't want/need a background service you can just run:
+  /usr/local/opt/shadowsocks-libev/bin/ss-local -c /usr/local/etc/shadowsocks-libev.json
+
+
+brew install shadowsocks-libev v2ray-plugin
+#Then copy binaries to the App
+cp -f /usr/local/opt/shadowsocks-libev/bin/ss-local  /Applications/ShadowsocksX-NG.app/Contents/Resources/ss-local
+cp -f /usr/local/opt/v2ray/bin/v2ray  /Applications/ShadowsocksX-NG.app/Contents/Resources/v2ray-plugin
+#And remove quarantine attribute to allow run binary
+sudo xattr -d com.apple.quarantine '/Applications/ShadowsocksX-NG.app/Contents/Resources/v2ray-plugin'
+
+## doing-设置terminal代理
+
+打开ss之后，通过代理访问google
+
+http_proxy=http://localhost:1087 curl -I http://google.com
+
+
+## minikube mirrors
+
+minikube start --image-mirror-country=cn   --iso-url=https://kubernetes.oss-cn-hangzhou.aliyuncs.com/minikube/iso/minikube-v1.6.2.iso  --registry-mirror=https://mhzm7ggy.mirror.aliyuncs.com  --image-repository=registry.cn-hangzhou.aliyuncs.com/google_containers
+
+
+
+
+
 
 ## 更换brew镜像
 

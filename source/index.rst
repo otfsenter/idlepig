@@ -32,6 +32,7 @@ Python、Linux运维、自动化
 
     0-todo
     apple
+    legado
     computer
     ansible/index
     english/index
