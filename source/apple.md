@@ -13,6 +13,15 @@
 
 ## ss-local
 
+
+setup auto proxy enable on command
+
+```
+networksetup -setproxyautodiscovery USB\ 10/100/1000\ LAN on
+networksetup -setproxyautodiscovery USB\ 10/100/1000\ LAN off
+```
+
+
 To restart shadowsocks-libev after an upgrade:
   brew services restart shadowsocks-libev
 Or, if you don't want/need a background service you can just run:
@@ -25,6 +34,108 @@ cp -f /usr/local/opt/shadowsocks-libev/bin/ss-local  /Applications/ShadowsocksX-
 cp -f /usr/local/opt/v2ray/bin/v2ray  /Applications/ShadowsocksX-NG.app/Contents/Resources/v2ray-plugin
 #And remove quarantine attribute to allow run binary
 sudo xattr -d com.apple.quarantine '/Applications/ShadowsocksX-NG.app/Contents/Resources/v2ray-plugin'
+
+
+view process of shadowsocks
+
+```
+lsof -iTCP -sTCP:LISTEN -n -P
+```
+
+```
+COMMAND     PID         USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+Shadowsoc 65979 zhouxinzheng   11u  IPv4 0xd38e381a21fb3505      0t0  TCP 127.0.0.1:8090 (LISTEN)
+Shadowsoc 65979 zhouxinzheng   12u  IPv6 0xd38e3823bb1a9aad      0t0  TCP [::1]:8090 (LISTEN)
+ss-local  75261 zhouxinzheng    6u  IPv4 0xd38e381a2851e505      0t0  TCP 127.0.0.1:1086 (LISTEN)
+privoxy   75265 zhouxinzheng    3u  IPv4 0xd38e381a284d0505      0t0  TCP 127.0.0.1:1087 (LISTEN)
+```
+
+check whether turn traffic
+
+```
+curl --socks5 127.0.0.1:1086 http://cip.cc
+```
+
+```
+IP	: 103.137.63.129
+地址	: 亚太地区  亚太地区
+
+数据二	: 台湾省 | 彼得巧科技企业社
+
+数据三	: 巴基斯坦
+
+URL	: http://www.cip.cc/103.137.63.129
+```
+
+command list for get proxy settings 
+
+
+```
+$ system_profiler SPNetworkDataType # 获取完整网络配置信息
+
+$ networksetup -listallnetworkservices # 列举所有网络设备
+$ networksetup -getwebproxy Wi-Fi # 获取特定网络设备的系统代理配置
+
+```
+
+
+change terminal proxy automatically for mac
+
+```
+#!/bin/zsh
+# Auto configure zsh proxy env based on system preferences
+# Sukka (https://skk.moe)
+
+# Cache the output of scutil --proxy
+__ZSH_OSX_AUTOPROXY_SCUTIL_PROXY=$(scutil --proxy)
+
+# Pattern used to match the status
+__ZSH_OSX_AUTOPROXY_HTTP_PROXY_ENABLED_PATTERN="HTTPEnable : 1"
+__ZSH_OSX_AUTOPROXY_HTTPS_PROXY_ENABLED_PATTERN="HTTPSEnable : 1"
+__ZSH_OSX_AUTOPROXY_FTP_PROXY_ENABLED_PATTERN="FTPSEnable : 1"
+__ZSH_OSX_AUTOPROXY_SOCKS_PROXY_ENABLED_PATTERN="SOCKSEnable : 1"
+
+__ZSH_OSX_AUTOPROXY_HTTP_PROXY_ENABLED=$__ZSH_OSX_AUTOPROXY_SCUTIL_PROXY[(I)$__ZSH_OSX_AUTOPROXY_HTTP_PROXY_ENABLED_PATTERN]
+__ZSH_OSX_AUTOPROXY_HTTPS_PROXY_ENABLED=$__ZSH_OSX_AUTOPROXY_SCUTIL_PROXY[(I)$__ZSH_OSX_AUTOPROXY_HTTPS_PROXY_ENABLED_PATTERN]
+__ZSH_OSX_AUTOPROXY_FTP_PROXY_ENABLED=$__ZSH_OSX_AUTOPROXY_SCUTIL_PROXY[(I)$__ZSH_OSX_AUTOPROXY_FTP_PROXY_ENABLED_PATTERN]
+__ZSH_OSX_AUTOPROXY_SOCKS_PROXY_ENABLED=$__ZSH_OSX_AUTOPROXY_SCUTIL_PROXY[(I)$__ZSH_OSX_AUTOPROXY_SOCKS_PROXY_ENABLED_PATTERN]
+
+# http proxy
+if (( $__ZSH_OSX_AUTOPROXY_HTTP_PROXY_ENABLED )); then
+    __ZSH_OSX_AUTOPROXY_HTTP_PROXY_SERVER=${${__ZSH_OSX_AUTOPROXY_SCUTIL_PROXY#*HTTPProxy : }[(f)1]}
+    __ZSH_OSX_AUTOPROXY_HTTP_PROXY_PORT=${${__ZSH_OSX_AUTOPROXY_SCUTIL_PROXY#*HTTPPort : }[(f)1]}
+    export http_proxy="http://${__ZSH_OSX_AUTOPROXY_HTTP_PROXY_SERVER}:${__ZSH_OSX_AUTOPROXY_HTTP_PROXY_PORT}"
+    export HTTP_PROXY="${http_proxy}"
+fi
+# https_proxy
+if (( $__ZSH_OSX_AUTOPROXY_HTTPS_PROXY_ENABLED )); then
+    __ZSH_OSX_AUTOPROXY_HTTPS_PROXY_SERVER=${${__ZSH_OSX_AUTOPROXY_SCUTIL_PROXY#*HTTPSProxy : }[(f)1]}
+    __ZSH_OSX_AUTOPROXY_HTTPS_PROXY_PORT=${${__ZSH_OSX_AUTOPROXY_SCUTIL_PROXY#*HTTPSPort : }[(f)1]}
+    export https_proxy="http://${__ZSH_OSX_AUTOPROXY_HTTPS_PROXY_SERVER}:${__ZSH_OSX_AUTOPROXY_HTTPS_PROXY_PORT}"
+    export HTTPS_PROXY="${https_proxy}"
+fi
+# ftp_proxy
+if (( $__ZSH_OSX_AUTOPROXY_FTP_PROXY_ENABLED )); then
+    __ZSH_OSX_AUTOPROXY_FTP_PROXY_SERVER=${${__ZSH_OSX_AUTOPROXY_SCUTIL_PROXY#*FTPProxy : }[(f)1]}
+    __ZSH_OSX_AUTOPROXY_FTP_PROXY_PORT=${${__ZSH_OSX_AUTOPROXY_SCUTIL_PROXY#*FTPPort : }[(f)1]}
+    export ftp_proxy="http://${__ZSH_OSX_AUTOPROXY_FTP_PROXY_SERVER}:${__ZSH_OSX_AUTOPROXY_FTP_PROXY_PORT}"
+    export FTP_PROXY="${ftp_proxy}"
+fi
+# all_proxy
+if (( $__ZSH_OSX_AUTOPROXY_SOCKS_PROXY_ENABLED )); then
+    __ZSH_OSX_AUTOPROXY_SOCKS_PROXY_SERVER=${${__ZSH_OSX_AUTOPROXY_SCUTIL_PROXY#*SOCKSProxy : }[(f)1]}
+    __ZSH_OSX_AUTOPROXY_SOCKS_PROXY_PORT=${${__ZSH_OSX_AUTOPROXY_SCUTIL_PROXY#*SOCKSPort : }[(f)1]}
+    export all_proxy="http://${__ZSH_OSX_AUTOPROXY_SOCKS_PROXY_SERVER}:${__ZSH_OSX_AUTOPROXY_SOCKS_PROXY_PORT}"
+    export ALL_PROXY="${all_proxy}"
+elif (( $__ZSH_OSX_AUTOPROXY_HTTP_PROXY_ENABLED )); then
+    export all_proxy="${http_proxy}"
+    export ALL_PROXY="${all_proxy}"
+fi
+```
+
+
+
+
 
 ## doing-设置terminal代理
 
