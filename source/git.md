@@ -1,5 +1,19 @@
 # git
 
+## issue分支和master分支冲突
+
+先在本地master分支pull issue分支，会自动合并，
+
+自动合并不了的，才去手动合并，
+
+然后再push到master分支上，github上的冲突会显示ok
+
+```bash
+git add .
+git commit --no-edit
+git push origin master
+```
+
 ## 处理别人的pull request
 
 先添加别人的源
